@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Basic CSS */
+html {
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	width: 100%;margin:0;padding:0;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font: 14px/1.5 'Lucida Grande', 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'Verdana', 'MS P ゴシック';
+	line-height: 1.75;
+	background-color: #fff;
+	color: #666;
+	text-rendering: optimizeLegibility;
+	position: relative;
+}
+img{max-width:100%;height:auto;}
+#wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;margin:0;padding:0;
+	
+}
+.header{background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:auto 500px;
+	background-position: center top;padding:200px 10px 10px;}
+ul.headnav{
+	width: 100%;
+	max-width: 1200px;
+	margin: 10px auto;
+	overflow: hidden;
+	list-style-type: none;
+}
+ul.headnav li{float:left;width:50%;}
+ul.headnav li img{width:100%;height:auto;}
+section {
+  padding: 2% 15%;
+}
+.fade1,.fade2,.fade3{display: none;}
+.fade2{width:90%;margin:10px auto 0;font-size:16px;}
+.photo{margin-top:20px;}
+.photo img{width:100%;height:auto;}
+.subtitle{width:300px;margin:10px auto;}
+.subtitle img{width:100%;height:auto;}
+.sennnaiimg{text-align:center;}
+.sennnaiimg img{width:220px;height:215px;}
+.senpakugaiyo{width:98%;margin:10px auto;}
+.senpakugaiyo h2{
+	font-size:20px;
+	color:#0a5cb9;font-weight:bold;
+	text-align: center;
+	padding: 10px;
+	background-image: url(img/title_bg.gif);
+	background-repeat: repeat;
+}
+.senpakugaiyo table{width:100%;border-top:1px solid #ccc;}
+.senpakugaiyo table th{
+	display: block;
+	background-color: #f4f4f4;padding:5px;text-align:center;border-bottom:none;
+}
+.senpakugaiyo table td{
+	display: block;padding:5px;border-bottom:1px solid #ccc;}
+
+@media (min-width: 767px) {
+	.header{padding-top:30%;background-size:100% auto;}
+	ul.headnav li{float:left;width:25%;}
+	.subtitle{width:50%;max-width:600px;}
+	.sennnaiimg img{width:33%;height:auto;max-width:440px}
+	.senpakugaiyo table{}
+.senpakugaiyo table th{
+	width: 20%;
+	display: table-cell;padding:15px;border-bottom:1px solid #ccc;
+}
+.senpakugaiyo table td{width:30%;display: table-cell;padding:15px;}
+.senpakugaiyo table td.la{width:80%;display: table-cell;}
+	}
+
+/* #page-top */
+#page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 77%;
+	z-index: 1000;
+}
+#page-top a {
+	text-decoration: none;
+	color: #fff;
+	width: 70px;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	cursor:pointer;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #fff;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+/*船*/
+#contents01{margin-bottom:50px;}
+
+/*魚*/
+#contents02{background-color:#b9e2f9;margin-bottom:50px;padding:20px 0;}
+.subcatch{margin-top:10px;text-align:center;}
+.subcatch img{width:100%;height:auto;max-width:500px;}
+.note{font-size:12px;padding:5px;text-align:center;}
+.sliderarea{overflow:hidden;}
+#topbanner li{
+	margin-right: 15px;
+	list-style-type: none;
+}
+/*クルー紹介*/
+#contents03{margin-bottom:50px;}
+.subcatch2{margin-top:10px;text-align:center;}
+.subcatch2 img{width:100%;height:auto;max-width:325px;}
+.subcatch3{margin-top:10px;text-align:center;}
+.subcatch3 img{width:100%;height:auto;max-width:380px;}
+.crewimg1{margin-top:10px;text-align:center;}
+.crewimg1 img{width:100%;height:auto;max-width:1000px;}
+
+.staffimg{width:100%;text-align:center;max-width:1200px;margin:0 auto;}
+.staffimg img{width:200px;height:200px;margin:10px;}
+@media (min-width: 767px) {
+.staffimg img{width:30%;height:auto;max-width:400px;margin:1%;}
+}
+
+/*バーチャルツアー*/
+#contents04{background-color:#b9e2f9;padding:20px 0;}
+
+
+.footer{
+	background-color: #9edbf0;
+	margin: 0px;
+	padding: 20px 10px;
+}
+.logoframe{text-align:center;}
+
+.copyright{
+	color: #2f89ab;
+	text-align: center;
+	font-size: 80%;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.youtube{width: 90%;max-width:853px;margin:10px auto;}
+.youtube iframe{
+  width: 100%;
+}
+
+/*20151005スタッフ紹介*/
+.staffinfo3{overflow:hidden;width:300px;max-width:1200px;margin:0 auto;}
+.staffinfo3 ul{text-align: center;}
+.staffinfo3 ul li{width: 100%;
+	display:block;
+	padding-bottom:20px;
+	vertical-align: top;
+}
+.staffinfo3 ul li div{margin:10px;}
+.staffinfo3 ul li div img{width:100%;height:auto;}
+.staffinfo3 ul li p{
+	margin: 10px;
+	font-size: 16px;
+	line-height: 40px;
+	background-image: url(img/staff_line.gif);
+	background-repeat: repeat;
+	background-position: center top;text-align: left;
+}
+
+@media (min-width: 767px) {
+	.staffinfo3{width:100%;}
+	.staffinfo3 ul li{
+	width: 33%;
+	display: inline-block;
+}
+	}
+/* Localized */

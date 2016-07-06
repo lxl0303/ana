@@ -1,0 +1,639 @@
+/* CSS Information ===============================
+File name:custom.css
+Date: 2015.12
+Contents: *all custom style
+================================================ */
+/*================
+all.min
+=================*/
+/*---------------------------------
+ 各Pの下部informationのテキスト枠
+---------------------------------*/
+.item__lower{
+	width:88%;
+	}
+
+/*---------------------------------
+FireFox リンク選択時の点線を消す
+---------------------------------*/
+#gnav a:link,
+#gnav a:visited,
+#gnav a:active,
+#gnav a:hover{
+	overflow:hidden;
+	outline:none;
+	}
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:hover{
+	overflow:hidden;
+	outline:none;
+	}
+
+/*---------------------------------
+各下層メイン動画のズレ対策
+---------------------------------*/
+.scarehead__main{
+	overflow:hidden;
+	}
+
+/*---------------------------------
+1280px以上時のfooter margin-top削除
+---------------------------------*/
+footer{
+	margin-top:0;
+	}
+/*---------------------------------
+footer sns ボタンとのマージン
+---------------------------------*/
+#official-sns h3{
+	margin:40px auto 40px auto !important;
+	}
+
+/*---------------------------------
+ページ下部information title 余白
+---------------------------------*/
+.subhead__block3{
+	padding:1.25rem;/*20*/
+	}
+
+/*---------------------------------
+おすすめスライダーのダイヤサイズ
+---------------------------------*/
+.recommends .owl-theme .owl-controls .owl-page span{
+	width:0.75rem;
+	height:0.75rem;
+	}
+
+/*---------------------------------
+ページ下部information 高さ調整
+---------------------------------*/
+.items .item:before{
+	padding-top:120%;
+	}
+
+/*---------------------------------
+宿泊検索フォーム
+---------------------------------*/
+dl.update dd > div:first-child{
+	margin-right:5px;
+}
+dl.insert dd > div:first-child{
+	margin-right:5px;
+}
+
+/*---------------------------------
+下層メインビジュアルの可変
+---------------------------------*/
+.scarehead05__sptitle{
+	display:none;
+	color:#fff;
+	font-size:1.5rem;/*24*/
+	}
+
+/*---------------------------------
+下層リコメンドのダイヤモンド
+---------------------------------*/
+.owl-theme .owl-controls .owl-page span{
+	background:transparent;
+	background-image:url(../img/common/rmd/c0c0c0.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	transform:none;
+	}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background:transparent;
+	background-image:url(../img/common/rmd/e0bb25.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	transform:none;
+	}
+
+/*---------------------------------
+TOP PAGE BANNER 
+---------------------------------*/
+.ps-banner ul li a img{
+	display:inline;
+	}
+.ps-banner .row--list{
+	width:80%;
+	margin:0 auto 0;
+	}
+#bannner-container #topbanner #owl-banner .ban img{
+	display:inline!important;
+	}
+#bannner-container .pickup .img-pickup{
+	width:80px;
+	}
+
+/*---------------------------------
+TOP PAGE RECOMMEND
+---------------------------------*/
+.rd-contents h2{
+	padding-left:2.5%;
+	}
+.rd-contents h2 img{
+	max-width:270px;
+	}
+.rd-contents .owl-theme .owl-controls .owl-page span{
+	background:transparent;
+	background-image:url(../img/common/rmd/fff.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	transform:none;
+	}
+.rd-contents .owl-theme .owl-controls .owl-page.active span,
+.rd-contents .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background:transparent;
+	background-image:url(../img/common/rmd/00b096.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	transform:none;
+	}
+
+/*---------------------------------
+TOP PAGE MAINVISUAL
+---------------------------------*/
+#manza__time{
+	width:230px;
+	margin-left:-116px;
+	}
+#down_scroll{
+	width:70px;
+	}
+
+/*---------------------------------
+ALL PAGELINK ANCHOR
+---------------------------------*/
+._anchor{
+	display: block!important;
+	margin-top: 0;
+	padding-top:0;
+	position: relative;
+	z-index: -1;
+	}
+
+/*---------------------------------
+TOP PAGE CATEGORY
+---------------------------------*/
+.restaurant .item_title{
+	background-color:#E69F6C;
+	}
+.relaxation .item_title{
+	background-color:#AA9BCC;
+	}
+
+/*---------------------------------
+TOP PAGE INFORMATION
+---------------------------------*/
+.top-information .title span img{
+	max-width:140px;
+	}
+.top-information .info_list dl dt{
+	margin-right:0;
+	}
+.top-information .info_list_data{
+	width:40%;
+	}
+.top-information .info_list_label{
+	width:45.5%;
+	}
+.blocks__item .item__full,
+.blocks__item .item__lower{
+	z-index:99;
+	}
+/*---------------------------------
+TOP MAINVISUAL LANGAGE BUTTON
+---------------------------------*/
+#full-screen .lang_button{
+	position:absolute;
+	top:25px;
+	right:30px;
+	width:160px;
+	height:80px;
+	background:#000;
+	}
+#full-screen .lang_button ul{
+	list-style-type:none;
+	padding:0;
+	}
+
+.subhead__block4 h2.subhead__title > div{
+	display:inline;
+	}
+
+/*---------------------------------
+FOOTRE SNS ICON IMAGE
+---------------------------------*/
+footer img{
+	width:100%;
+	max-width:155px;
+	}
+.sprite-official_sns{
+	background-image:url(../img/common/sns/title_sns.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	}
+#official-sns a{
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-o-background-size:100% auto;
+	-ms-background-size:100% auto;
+	height:52px;
+	}
+#official-sns a.sprite-twitter{
+	background-image:url(../img/common/sns/sns_twitter.png);
+	}
+#official-sns a.sprite-instagram{
+	background-image:url(../img/common/sns/sns_instagram.png);
+	}
+#official-sns a.sprite-facebook{
+	background-image:url(../img/common/sns/sns_facebook.png);
+	}
+#official-sns a.sprite-google{
+	background-image:url(../img/common/sns/sns_googleplus.png);
+	}
+#official-sns a.sprite-youtube{
+	background-image:url(../img/common/sns/sns_youtube.png);
+	}
+
+/*---------------------------------
+TOP LANGUGE BTN PC-ONLY
+---------------------------------*/
+#full-screen ul.lang_pc_btn{
+	position:absolute;
+	top:30px;
+	right:30px;
+	width:9.9375rem;/*159*/
+	list-style-type:none;
+	padding-left:0;
+	}
+#full-screen ul.lang_pc_btn li{
+	width:4.8125rem;/*77*/
+	float:left;
+	margin-left:0.3125rem;/*5*/
+	text-indent:-9999px;
+	}
+#full-screen ul.lang_pc_btn li:first-child{
+	margin-left:0;
+	}
+#full-screen ul.lang_pc_btn li a{
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	display:block;
+	}
+#full-screen ul.lang_pc_btn li:first-child a{
+	background-image:url(../img/top/btn_movie_english.png);
+	}
+#full-screen ul.lang_pc_btn li:first-child + li a{
+	background-image:url(../img/top/btn_movie_chinese.png);
+	}
+
+/*===================================================
+Responsive
+=================*/
+@media (max-width:1450px){
+	/*---------------------------------
+	TOP PAGE RECOMMEND
+	---------------------------------*/
+	.rd-contents h2{
+		padding-left:0;
+		}
+	}
+@media (max-width:1150px){
+	.ps-banner .row--list{
+		width:100%;
+		}
+	}
+@media (max-width: 768px){
+	/*---------------------------------
+	ページ下部information title
+	---------------------------------*/
+	.subhead .subhead__title,
+	.scarehead05__sptitle{
+		font-size:1.375rem;/*22*/
+		line-height:1.4em;
+		}
+	/*---------------------------------
+	ページ下部information 高さ調整
+	---------------------------------*/
+	.items .item:before{
+		padding-top:160%;
+		}
+	/*---------------------------------
+	下層メインスライダーキャプション位置
+	---------------------------------*/
+	.scarehead_item{
+		overflow:visible;
+		margin-bottom:35px;
+		}
+	#scarehead-carousel{
+		margin-bottom:1.125rem;/*18*/
+		}
+	#scarehead-carousel .scarehead_text{
+		bottom:-35px;
+		background-color:#616161;
+		}
+	#scarehead-carousel .owl-pagination{
+		padding-top:0.25rem;/*4*/
+		}
+	#scarehead-carousel .owl-prev{
+		background-image: url(../img/common/sprite.png);
+		background-position: -851px -543px;
+		width:21px;
+		height:40px;
+		margin-top:-35px;
+		}
+	#scarehead-carousel .owl-next{
+		background-image: url(../img/common/sprite.png);
+		background-position: -825px -543px;
+		width:21px;
+		height:40px;
+		margin-top:-35px;
+		}
+	/*---------------------------------
+	下層メインのマージン
+	---------------------------------*/
+	.scarehead{
+		margin-bottom:2rem;
+		}
+	/*---------------------------------
+	おすすめスライダーのマージン
+	---------------------------------*/
+	.recommends{
+		margin-bottom:1.4rem;
+		overflow:visible;
+		}
+	.recommends .owl-carousel .owl-wrapper-outer{
+		margin-bottom:20px;
+		}
+	.recommends .owl-prev,
+	.recommends .owl-next{
+		top:88%;
+		}
+	/*---------------------------------
+	ALL PAGELINK ANCHOR
+	---------------------------------*/
+	._anchor{
+		margin-top:-55px;
+		padding-top:55px;
+		}
+	/*---------------------------------
+	TOP MAINVISUAL LANGAGE BUTTON
+	---------------------------------*/
+	#full-screen .lang_button{
+		display:none;
+		}
+	/*---------------------------------
+	TOP LANGUGE BTN PC-ONLY
+	---------------------------------*/
+	#full-screen ul.lang_pc_btn{
+		display:none;
+		}
+	/*---------------------------------
+	GLOBAL NAVI
+	---------------------------------*/
+	.gnav__menu{
+		margin-top:65px;
+		}
+	.gnav__menu li{
+		height:40px;
+		}
+	.gnav__information{
+		vertical-align:middle;
+		}
+	.gnav__inquiry{
+		background-image:url(../img/common/gnav-sp/glnav_contact_sp.png);
+		background-repeat:no-repeat;
+		background-position:center -18px;
+		background-size:140% auto;
+		-moz-background-size:140% auto;
+		-webkit-background-size:140% auto;
+		-ms-background-size:140% auto;
+		-o-background-size:140% auto;
+		width:55px;
+		height:45px;
+		}
+	.gnav__faq{
+		background-image:url(../img/common/gnav-sp/glnav_qa_sp.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:140% auto;
+		-moz-background-size:140% auto;
+		-webkit-background-size:140% auto;
+		-ms-background-size:140% auto;
+		-o-background-size:140% auto;
+		width:55px;
+		height:45px;
+		}
+	.gnav__accessmap{
+		background-image:url(../img/common/gnav-sp/glnav_access_sp.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:140% auto;
+		-moz-background-size:140% auto;
+		-webkit-background-size:140% auto;
+		-ms-background-size:140% auto;
+		-o-background-size:140% auto;
+		width:55px;
+		height:45px;
+		}
+	.gnav__tel span{
+		background-image:url(../img/common/gnav-sp/glnav_tell_sp.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:140% auto;
+		-moz-background-size:140% auto;
+		-webkit-background-size:140% auto;
+		-ms-background-size:140% auto;
+		-o-background-size:140% auto;
+		}
+	a.gnav__lang-left{
+		height:40px;
+		background-image:url(../img/common/gnav-sp/glnav_english_sp.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:100% auto;
+		-moz-background-size:100% auto;
+		-webkit-background-size:100% auto;
+		-ms-background-size:100% auto;
+		-o-background-size:100% auto;
+		text-indent:-9999px;
+		}
+	a.gnav__lang-right{
+		height:40px;
+		background-image:url(../img/common/gnav-sp/glnav_chinese_sp.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:100% auto;
+		-moz-background-size:100% auto;
+		-webkit-background-size:100% auto;
+		-ms-background-size:100% auto;
+		-o-background-size:100% auto;
+		text-indent:-9999px;
+		}
+	.gnav__toggle--close{
+		background-image:url(../img/common/gnav-sp/btn_close.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:200% auto;
+		-moz-background-size:200% auto;
+		-webkit-background-size:200% auto;
+		-ms-background-size:200% auto;
+		-o-background-size:200% auto;
+		}
+	.gnav__toggle--open{
+		background-image:url(../img/common/gnav-sp/btn_menu.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:160% auto;
+		-moz-background-size:160% auto;
+		-webkit-background-size:160% auto;
+		-ms-background-size:160% auto;
+		-o-background-size:160% auto;
+		}
+	}
+
+@media (max-width: 640px){
+	/*---------------------------------
+	ページ下部information title
+	---------------------------------*/
+	.subhead .subhead__title,
+	.scarehead05__sptitle{
+		font-size:1.25rem;/*20*/
+		}
+	/*---------------------------------
+	ページ下部information 高さ調整
+	---------------------------------*/
+	.items .item:before{
+		padding-top:110%;
+		}
+	/*---------------------------------
+	プレミアム特典
+	---------------------------------*/
+	.subhead__block4 h2.subhead__title > div{
+		display:block;
+		}
+	/*---------------------------------
+	SNS
+	---------------------------------*/
+	#official-sns h3{
+		margin:20px auto 10px auto !important;
+		}
+	}
+
+@media (max-width: 550px){
+	/*---------------------------------
+	ページ下部information 高さ調整
+	---------------------------------*/
+	.items .item:before{
+		padding-top:160%;
+		}
+	}
+
+@media (max-width: 543px){
+	/*---------------------------------
+	下層メインビジュアルの可変
+	(その他ビジュアルと共通point)
+	---------------------------------*/
+	.scarehead05:before{
+		padding-top:50%;
+		}
+	.scarehead05__sptitle{
+	    overflow: hidden;
+	    display:block;
+	    padding:1.875rem 1.25rem;
+	    margin-bottom:0;
+		}
+	.scarehead05 .scarehead05__title{
+		display:none!important;
+		}
+	.scarehead05 .scarehead05__image{
+		width:100%;
+		}
+	.scarehead05 .scarehead05__image .img-fit{
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		margin:0;
+		}
+	}
+
+
+
+/*---------------------------------
+Recommend
+---------------------------------*/
+.recommended__item{
+	padding-top:6%;
+	height:auto;
+	overflow:visible;
+	margin:0 auto 0;
+}
+.recommended__image{
+	position:static;
+	height:auto;
+	margin-left:0;
+	overflow:visible;
+	margin:0 auto 0;
+}
+.recommended__image img{
+	width:100%;
+	max-width:100%;
+}
+.recommended__item:before{
+	padding-top:0;
+}
+.recommended__text{
+	position:static;
+	height:auto;
+	margin-left:5%;
+	padding:10px 0;
+	height:100px;
+	overflow:hidden;
+}
+#recommends-carousel a{
+	text-decoration:none;
+}
+.owl-prev{
+	top:35%;
+}
+.owl-next{
+	top:35%;
+}

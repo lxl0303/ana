@@ -1,0 +1,205 @@
+/* CSS Information ===============================
+File name:form-new.css
+Date: 2016.01
+Contents: *all form-new
+================================================ */
+/*================
+all.min updata
+=================*/
+/*---------------------------------
+SIDE SELECT DESIGN
+---------------------------------*/
+.form dd{
+	width:100%;
+	}
+.form-new .insert .tbtag{
+	width:100%;
+	margin-top:10px;
+	}
+.form-new .insert .tbtag .range,
+.form-new .update .tbtag .range{
+	float:left;
+	}
+#hotel-reservation .dt_yyyymm{
+	width:123px;
+	margin-right:4px;
+	}
+#hotel-reservation .dt_dd{
+	width:75px;
+	}
+#hotel-reservation .half,
+#ana-reservation .half{
+	width:99px;
+	}
+#hotel-reservation .full,
+#ana-reservation .full{
+	width:98%;
+	margin-right:0;
+	}
+#ana-reservation .cb3{
+	width:90px;
+	margin-right:0px;
+	}
+#ana-reservation .cb3:first-child{
+	margin-right:5px;
+	}
+.form-new .vatop{
+	vertical-align:top;
+	}
+.form-new .insert .range,
+.form-new .update .range{
+	position:relative;
+	}
+.form-new .insert select,
+.form-new .update select{
+	opacity:0;
+	position:absolute;
+	z-index:99;
+	height:25px;
+	margin-top:-25px;
+	cursor:pointer;
+	width:100%;
+	}
+.form-new .insert .inner,
+.form-new .update .inner{
+	position:relative;
+	z-index:0;
+	padding:1% 5px 0;
+	height:25px;
+	background-color:#fff;
+	margin-bottom:0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	}
+.form-new .insert .inner span,
+.form-new .update .inner span{
+	background:url(../img/common/yazirushi.png) no-repeat center center;
+	background-size:50% auto;
+	-webkit-background-size:50% auto;
+	display:block;
+	height:25px;
+	width:25px;
+	position:absolute;
+	top:0;
+	right:0;
+	}
+.form-new .radio-box{
+	position:relative;
+	}
+#ana-reservation dl:nth-child(1) dd select:nth-child(2),
+#ana-reservation dl:nth-child(4) dd select:nth-child(2),
+#ana-reservation dl:nth-child(7) dd select,
+#ana-reservation dl:nth-child(8) dd select{
+	width:100%!important;
+	}
+#ana-reservation dl:nth-child(9) dd span{
+	width:30%;
+	margin-right:5px;
+	}
+/*----------------------
+RADIO BUTTON DESIGN
+-----------------------*/
+.form-new input[type="radio"]{
+	display:none;
+	margin:0;
+	}
+.form-new input[type="radio"] + label span{
+	padding-left:28px;
+	}
+.form-new input[type="radio"] + label.off:before{
+	content:url("../img/common/off-8513.png");
+	position:absolute;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	display: block;
+	width:18px;
+	height:18px;
+	margin-top:4px;
+	z-index:0;
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	}
+.form-new input[type="radio"] + label.on:after{
+	content:url("../img/common/on-8513.png");
+	position:absolute;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	display: block;
+	width:18px;
+	height:18px;
+	margin-top:-21px;
+	z-index:1;
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	}
+
+/*===================================================
+Responsive
+=================*/
+@media (max-width:1450px){
+	}
+@media (max-width:1150px){
+	}
+@media (max-width:768px){
+	#hotel-reservation .full,
+	#ana-reservation .full{
+		width:98%;
+		}
+	#hotel-reservation .dt_dd{
+		width:90px;
+		}
+	#hotel-reservation .half,
+	#ana-reservation .half{
+		width:107px;
+		}
+	#gnav a:link,
+	#gnav a:visited,
+	#gnav a:active,
+	#gnav a:hover{
+		overflow:visible;
+		}
+	.gnav__informations{
+		top:-12px;
+		}
+	.gnav__lang li{
+		padding-top:15px;
+		}
+	}
+@media (max-width:374px){
+	#hotel-reservation dl dd,
+	#ana-reservation dl dd{
+		font-size:13px!important;
+		}
+	#hotel-reservation .half,
+	#ana-reservation .half{
+		width:90px;
+		}
+	#ana-reservation .cb3{
+		width:80px;
+		}
+	#hotel-reservation .dt_yyyymm{
+		width:105px;
+		}
+	#hotel-reservation .dt_dd{
+		width:76px;
+		}
+	}
+
+/* Localized */

@@ -1,0 +1,384 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+.equipment {
+  display: table-cell;
+  padding-top: .6rem; }
+  .equipment .wifi {
+    display: table-cell;
+    vertical-align: middle;
+    color: #00839f;
+    background-image: url(../../img/stay/icon_wifi.png);
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    width: 29px;
+    height: 32px;
+    background-size:29px auto;
+    -moz-background-size:29px auto;
+    -webkit-background-size:29px auto;
+    -ms-background-size:29px auto;
+    -o-background-size:29px auto;
+    }
+  .equipment span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    color: #00839f; }
+
+
+/*==============================================
+update(2015.12.26)
+===============================================*/
+
+.remodal-overlay {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.remodal {
+  padding: 0 !important;
+  text-align: center;
+}
+
+.remodal img {
+  max-width: 100%;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.remodal-wrapper {
+  padding: 0 !important;
+}
+
+.remodal-close-img {
+  position: absolute;
+  right: 0;
+  top: -65px;
+  cursor: pointer;
+}
+
+/*==============================================
+update(2015.12.18)/(▼common style / all.min.cssへ移動する)
+===============================================*/
+.subhead__block2{
+	padding:1.875rem;/*30*/
+	}
+.subhead__block5,
+.subhead__block6{/*背景画像*/
+    display: table-cell;
+    width: 66.66666%;
+    height: auto;
+    vertical-align: middle;
+    padding: 2% 2% 1% 3.5%;
+    font-size: 0.875rem;
+	}
+.subhead__block3{/*カテゴリカラー(文字)*/
+	display: table-cell;
+	width: 33.33333%;
+	height: auto;
+	color: #fff;
+	vertical-align: middle;
+	padding: 1% 2% 1% 3%;
+	}
+.subhead__block4{/*プレミアム*/
+	display: table-cell;
+	width: 33.33333%;
+	height: auto;
+	background-color:#b69f40;
+	color: #fff;
+	vertical-align: middle;
+	padding:1.5625rem;/*25*/
+	}
+.subhead__block4 h2.subhead__title span{/*プレミアム*/
+	display:block;
+	width:80%;
+	font-size:0.875rem;/*14*/
+	padding:0 1.25rem 0 0;/*20*/
+	border:solid 1px #d9cd9c;
+	font-family:"メイリオ","Century Gothic","Hiragino Kaku Gothic ProN",sans-serif;
+	background:url(../../img/common/yazi.png) no-repeat right center;
+	margin-top:0.625rem;/*10*/
+	margin-bottom:0.625rem;/*10*/
+	}
+.subhead__block4 h2.subhead__title span a{
+	color:#fff;
+	text-decoration:none;
+	padding:0.625rem 0 0.625rem 0.625rem;/*10*/
+	display:block;
+	width:100%;
+	}
+/*配列調整のため（display:block/none切替）*/
+.items .item.spacer1{
+	display:block;
+	}
+.items .item.spacer2{
+	display:none;
+	}
+/*配列調整のため（bgc配列切替）*/
+.items--premium .item:nth-child(odd){
+	background-color:#f9f2d3;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 991px){
+	.items .item{
+		width:50%;
+		}
+	.items .item.spacer1{
+		display:none;
+		}
+	.items .item.spacer2{
+		display:block;
+		}
+	.items--premium .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--premium .item:nth-child(1),
+	.items--premium .item:nth-child(5),
+	.items--premium .item:nth-child(6),
+	.items--premium .item:nth-child(9){
+	    background-color: #f9f2d3;
+		}
+	.subhead__block5,
+	.subhead__block6{
+	    width:50%;
+		}
+	.subhead__block3,
+	.subhead__block4{
+		width:50%;
+		}
+    }
+@media (max-width: 939px){
+	.subhead__block4 h2.subhead__title span{
+		width:85%;
+		}
+	}
+@media (max-width: 768px){
+	.subhead__block1,
+	.subhead__block2{
+		display:table;
+		width:100%;
+		}
+	.subhead__block1{
+		padding:1.875rem 1.25rem;
+		}
+	.subhead__block5,
+	.subhead__block6{
+	    width:66.66666666%;
+		}
+	.subhead__block3,
+	.subhead__block4{
+		width:33.33333333%;
+		}
+	.items .item{
+		width:33.33333333%;
+		}
+	.items .item.spacer1{
+		display:block;
+		}
+	.items .item.spacer2{
+		display:none;
+		}
+	.items--premium .item:nth-child(1),
+	.items--premium .item:nth-child(5),
+	.items--premium .item:nth-child(odd){
+	    background-color: #f9f2d3;
+		}
+	.items--premium .item:nth-child(6),
+	.items--premium .item:nth-child(9){
+	    background-color: #fff;
+		}
+	.subhead__block4 h2.subhead__title{
+		font-size:1.375rem;/*22*/
+		}
+	.subhead__block4 h2.subhead__title span{
+		width:92%;
+		}
+	}
+@media (max-width: 640px){
+	.subhead_buttons a{
+		width:100%;
+		display:block;
+		text-align:center;
+		}
+	.subhead__block4{
+		width:100%;
+		height:160px;
+		text-align:center;
+		}
+	.subhead__block4 h2.subhead__title span{
+		width:60%;
+		display:block;
+		margin:0.625rem auto;
+		text-align:center;
+		}
+	.subhead__block4 h2.subhead__title span a{
+		color:#fff;
+		text-decoration:none;
+		padding:0.625rem 0 0.625rem 1.25rem;/*10*/
+		display:block;
+		width:100%;
+		}
+	.subhead__block5{
+	    width:50%;
+		}
+	.subhead__block3{
+		width:50%;
+		}
+	.subhead__block6{
+		display:none;
+		}
+	.items .item{
+		width:50%;
+		}
+	.items .item.spacer1{
+		display:none;
+		}
+	.items .item.spacer2{
+		display:block;
+		}
+	.items--premium .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--premium .item:nth-child(1),
+	.items--premium .item:nth-child(5),
+	.items--premium .item:nth-child(6),
+	.items--premium .item:nth-child(9){
+	    background-color: #f9f2d3;
+		}
+	.subhead__block4 h2.subhead__title{
+		font-size:1.25rem;/*20*/
+		}
+	}
+@media (max-width:480px){
+	.subhead__block4 h2.subhead__title span{
+		width:80%;
+		}
+	.equipment span{
+		font-size:0.8125rem;/*13*/
+		padding-left:5px;
+		}
+	}
+
+/*==============================================
+update(2015.12.18)/(▼page only style そのまま)
+===============================================*/
+/*▼(all.min.cssから移動する)=====================================================*/
+.headline--01 {
+  background: url("../../img/stay/headline1.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.headline--02 {
+  background: url("../../img/stay/headline2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+/*配列調整のため（bgc配列切替）*/
+.items--stay .item:nth-child(odd){
+    background-color: #e3f1f7;
+	}
+/*▲==============================================================================*/
+.information{
+	background:#ebf5fa;
+	}
+.information .m-b-md{
+	font-size:1.125rem;/*18*/
+	font-family:"times new roman","ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-weight:500;
+	color:#999;
+	margin-bottom:1.875rem;/*30*/
+	}
+/*カテゴリカラー(文字)*/
+.subhead__block3,
+.scarehead05__sptitle{
+	background-color:#0ba0c3;
+	}
+#recommends-carousel a{
+	color:#666;
+	display:block;
+	width:100%;
+	}
+#recommends-carousel a:hover{
+	background-color:#e3f1f7;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+	.information{
+		margin-bottom:1.25rem;/*20*/
+		}
+	.items--stay .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--stay .item:nth-child(1),
+	.items--stay .item:nth-child(5),
+	.items--stay .item:nth-child(6),
+	.items--stay .item:nth-child(9){
+	    background-color: #e3f1f7;
+		}
+    }
+@media (max-width: 768px){
+	.information dt{
+		background:#cae8f2;
+		padding-top:0.3125rem;/*10*/
+		padding-bottom:0.3125rem;/*10*/
+		padding-left:0.625rem;/*10*/
+		border-top:none;
+		}
+	.information dd{
+		border-top:none;
+		}
+	.items--stay .item:nth-child(1),
+	.items--stay .item:nth-child(5),
+	.items--stay .item:nth-child(odd){
+	    background-color: #e3f1f7;
+		}
+	.items--stay .item:nth-child(6),
+	.items--stay .item:nth-child(9){
+	    background-color: #fff;
+		}
+    }
+@media (max-width: 640px){
+	.items--stay .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--stay .item:nth-child(1),
+	.items--stay .item:nth-child(5),
+	.items--stay .item:nth-child(6),
+	.items--stay .item:nth-child(9){
+	    background-color: #e3f1f7;
+		}
+    }
+@media (max-width: 543px){
+    }

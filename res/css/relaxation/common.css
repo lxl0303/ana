@@ -1,0 +1,707 @@
+/* CSS Information ===============================
+File name:relaxation/common.css
+Date: 2015.12
+Contents: *relaxation
+================================================ */
+/*================
+relaxation
+=================*/
+html{
+	width:100%;
+	height:100%;
+	}
+/*--------------------------------*/
+.pageonly-type .page-wrap{
+	width:100%;
+	max-width:1050px;
+	text-align:left;
+	margin:3.125rem auto 1.875rem;/*50,20px*/
+	}
+.pageonly-type  #recommends-carousel span{
+	color:#aa9bcc;
+	}
+.pageonly-type  #recommends-carousel a{
+	display:block;
+	width:100%;
+	color:#666;
+	}
+.pageonly-type  #recommends-carousel a:hover{
+	background:#f2f0f7;
+	}
+/*================
+box-wrap
+=================*/
+.pageonly-type .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:1.25rem;/*20*/
+	text-align:left;
+	}
+.pageonly-type .page-wrap p.title{
+	text-align:center;
+	line-height:2rem;
+	margin-bottom:3.75rem;/*60px*/
+	}
+.pageonly-type .page-wrap p.title span{
+	display:block;
+	}
+.pageonly-type .page-wrap .ecitem{
+	display:table;
+	width:100%;
+	max-width:56.875rem;/*910px*/
+	background:#e5f0fa;
+	padding:1.875rem 1.25rem 1.875rem;/*30,20,30,50*/
+	margin:0 auto 2.5rem;/*40*/
+	}
+/*================
+information
+=================*/
+.pageonly-type .infoarea{
+	width:100%;
+	max-width:50.625rem;/*810px*/
+	margin:0 auto 3.125rem;/*50*/
+	text-align:left;
+	}
+.pageonly-type .info .infoarea{
+	margin:0 auto 0.625rem;/*10*/
+	}
+.pageonly-type .infoarea.full{
+	width:100%;
+	max-width:100%;
+	}
+.pageonly-type .infoarea p{
+	font-size:1.125rem;/*18*/
+	font-family:"times new roman","ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	color:#999;
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .infoarea dl{
+	width:100%;
+	border-bottom:solid 1px #dfdde4;
+	display:table;
+	font-size:0.875rem;/*14*/
+	text-align:left;
+	}
+.pageonly-type .infoarea.full dl:last-child{
+	border-bottom:none;
+	}
+.pageonly-type .infoarea dl dt,
+.pageonly-type .infoarea dl dd{
+	display:table-cell;
+	padding:1.25rem 0;/*20*/
+	}
+.pageonly-type .infoarea dl dt{
+	width:19.75308641%;/*160*/
+	}
+.pageonly-type .infoarea dl dd{
+	width:80.24691358%;/*650*/
+	}
+/*================
+message2
+=================*/
+.pageonly-type .freearea{
+	width:100%;
+	text-align:left;
+	font-size:0.8125rem;/*13*/
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .freearea span{
+	display:block;
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .freearea a{
+	color:#b1931a;
+	text-decoration:underline;
+	}
+.pageonly-type .freearea .red{
+	color:#fe773c;
+	}
+/*================
+rr-summary
+=================*/
+.pageonly-type .rr-summary{
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .rr-summary .bg:nth-child(odd){
+	background:#f2f0f7;
+	}
+.pageonly-type .menu-contents{
+	border-bottom:solid 10px #f5f5f5;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .rr-summary{
+	width:100%;
+	}
+.pageonly-type .menu-contents h2{
+	font-size:1.125rem;/*18px*/
+	padding:0.625rem 1.5625rem;/*10px,25px*/
+	background:#CCC3E0;
+	color:#fff;
+	text-align:center;
+	margin:0;
+	}
+.pageonly-type .rr-summary .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:1.25rem;/*20*/
+	text-align:left;
+	}
+.pageonly-type .rr-summary .box-wrap .upper{
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info{
+	width:58.2%;
+	float:left;
+	padding-right:4.375rem;/*70px*/
+	font-size:0.875rem;/*14px*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info.full{
+	width:100%;
+	max-width:59.375rem;/*950*/
+	float:none;
+	padding-right:0;
+	}
+.pageonly-type .rr-summary .box-wrap .photo{
+	width:41.8%;
+	float:left;
+	}
+.pageonly-type .rr-summary .box-wrap .photo img{
+	width:100%;
+	max-width:100%;
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info h3{
+	font-size:1.5rem;/*24px*/
+	color:#9B88C5;
+	text-align:left;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info h3.ico{
+	background-image:url(../../img/relaxation/ico.png);
+	background-repeat:no-repeat;
+	background-position:0 9px;
+	padding-left:1.45rem;/*23.2rempx*/
+	background-size:18px auto;
+	-moz-background-size:18px auto;
+	-webkit-background-size:18px auto;
+	-ms-background-size:18px auto;
+	-o-background-size:18px auto;
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info p{
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info ul.rate{
+	color:#9B88C5;
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14px*/
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper .info ul.rate li{
+	background-image:url(../../img/relaxation/ico2.png);
+	background-repeat:no-repeat;
+	background-position:0 6px;
+	padding-left:1.25rem;/*20px*/
+	margin-bottom:0.625rem;/*10*/
+	
+	background-size:10px auto;
+	-moz-background-size:10px auto;
+	-webkit-background-size:10px auto;
+	-ms-background-size:10px auto;
+	-o-background-size:10px auto;
+	}
+.pageonly-type .rr-summary .box-wrap a,
+.pageonly-type .rr-summary .box-wrap a:link,
+.pageonly-type .rr-summary .box-wrap a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.pageonly-type .rr-summary .box-wrap a:hover{
+	text-decoration:none;
+	}
+/*================
+supplies
+=================*/
+.pageonly-type .supplies{
+	width:100%;/*950*/
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .supplies dl{
+	width:100%;
+	border-bottom:solid 1px #dfdde4;
+	display:table;
+	font-size:0.875rem;/*14*/
+	text-align:left;
+	}
+.pageonly-type .supplies dl:first-child{
+	border-top:solid 1px #dfdde4;
+	}
+.pageonly-type .supplies dl dt,
+.pageonly-type .supplies dl dd{
+	display:table-cell;
+	padding:0.625rem;/*10*/
+	}
+.pageonly-type .supplies dl dt{
+	width:16.84210526%;/*160*/
+	border-right:solid 1px #dfdde4;
+	background:#e8e4f2;
+	}
+.pageonly-type .supplies dl dd{
+	width:83.1578948%;/*790*/
+	}
+/*==============================
+▼urumo 限定スタイル
+===============================*/
+.pageonly-type .rr-summary .box-wrap .upper.spa-urmo{
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .info{
+	width:61%;
+	padding-right:3.4375rem;/*55px*/
+	}
+.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .photo{
+	width:39%;
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .spa-urmo .special{
+	width:100%;
+	text-align:left;
+	}
+.pageonly-type .spa-urmo .special p.strong{
+	font-size:0.9375rem;/*15*/
+	line-height:2em;
+	}
+.pageonly-type .spa-urmo .special .summary{
+	width:100%;
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .spa-urmo .special .summary h4.planname{
+	background:url(../../img/relaxation/ico2.png) no-repeat 0 7px;
+	padding-left:0.9375rem;/*15px*/
+	color:#9B88C5;
+	font-size:0.9375rem;/*15*/
+	background-size:10px auto;
+	-moz-background-size:10px auto;
+	-webkit-background-size:10px auto;
+	-ms-background-size:10px auto;
+	-o-background-size:10px auto;
+	}
+.pageonly-type .spa-urmo .special .summary dl{
+	font-size:0.875rem;/*14*/
+	margin-bottom:0.9375rem;/*15*/
+	}
+.pageonly-type .spa-urmo .supplies{
+	width:100%;/*950*/
+	max-width:59.375rem;/*950*/
+	float:none;
+	}
+.pageonly-type .spa-urmo .special .freearea{
+	font-size:0.9375rem;/*15*/
+	line-height:1.8em;
+	}
+/*==============================
+▼urumo 限定スタイル menu-box
+===============================*/
+.pageonly-type .menu-carton{
+	width:100%;
+	max-width:1050px;/*1050*/
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .menu-carton .menu-box{
+	width:100%;
+	}
+.pageonly-type .menu-carton .menu-box h2{
+	font-size:1.4375rem;/*23*/
+	text-align:center;
+	color:#9B88C5;
+	background:#fff;
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .menu-carton .menu-box h2 span{
+	display:inline-block;
+	}
+.pageonly-type .menu-carton .menu-box h2 div.deco{
+	width:214px;
+	height:12px;
+	display:block;
+	margin:1.25rem auto 0;
+	background:url(../../img/relaxation/title_deco.png) no-repeat center center;
+	}
+.pageonly-type .menu-carton .menu-box .menu-view{
+	width:100%;
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .menu-carton .menu-box .menu-view img{
+	width:100%;
+	max-width:1050px;
+	}
+.pageonly-type .menu-carton .menu-box p.lead{
+	font-size:1rem;/*16*/
+	font-weight:normal;
+	padding:0 1.25rem;/*20*/
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .menu-carton .menu-box .box{
+	width:100%;
+	padding:0 1.25rem;/*20*/
+	margin-bottom:3.75rem;/*60*/
+	text-align:left;
+	}
+.pageonly-type .menu-carton h3.pgname{
+	width:100%;
+	font-size:1.125rem;/*18*/
+	color:#9B88C5;
+	border-bottom:solid 1px #C3B9DB;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary{
+	width:100%;
+	max-width:1010px;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary p{
+	font-size:0.875rem;/*14*/
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary .l-box{
+	width:47.52475247%;/*480*/
+	margin-right:4.950495049%;/*50*/
+	float:left;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary .r-box{
+	width:47.52475247%;/*480*/
+	float:left;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary .r-box .photo{
+	width:100%;
+	margin-bottom:1.25rem;/*20*/
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary .r-box .photo img{
+	width:100%;
+	max-width:100%;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary ul.rate{
+	color:#9B88C5;
+	list-style-type:none;
+	padding-left:0;
+	padding-top:1.5625rem;/*25*/
+	font-size:0.875rem;/*14px*/
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary ul.rate li{
+	background:url(../../img/relaxation/ico2.png) no-repeat 0 5px;
+	padding-left:1.25rem;/*20px*/
+	margin-bottom:0.9375rem;/*15*/
+	background-size:10px auto;
+	-moz-background-size:10px auto;
+	-webkit-background-size:10px auto;
+	-ms-background-size:10px auto;
+	-o-background-size:10px auto;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab{
+	width:100%;/*1010*/
+	display:table;
+	font-size:0.875rem;/*14*/
+	border-top:solid 1px #C3B9DB;
+	text-align:left;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab:first-child{
+	border-top:none;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dt,
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd{
+	padding:0.9375rem;/*15*/
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dt{
+	width:21.78217821%;/*220*/
+	display:table-cell;
+	font-size:0.9375rem;/*15*/
+	vertical-align:top;
+	color:#9B88C5;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd.time{
+	width:14.85148514%;/*150*/
+	display:table-cell;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd.time span{
+	dispaly:inline-block;
+	}
+.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd.note{
+	width:63.36633663%;/*640*/
+	display:table-cell;
+	}
+.pageonly-type .spalogo{
+	width:100%;
+	text-align:center;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .spalogo img{
+	width:100%;
+	max-width:95px;
+	}
+
+/*================
+Responsive
+=================*/
+@media (max-width: 1280px){
+	.pageonly-type .rr-summary .box-wrap{
+		padding-right:1.25rem;/*20*/
+		}
+	}
+@media (max-width: 1199px){
+	.pageonly-type .rr-summary .box-wrap .upper .info{
+		width:45%;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:55%;
+		}
+	.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .info{
+		width:47.8%;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .photo{
+		width:52.2%;
+		}
+    }
+@media (max-width: 1090px){
+	}
+@media (max-width: 991px){
+	.pageonly-type .rr-summary{
+		margin-bottom:0;
+		}
+	.pageonly-type .rr-summary .box-wrap{
+		padding-bottom:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .upper .info h3{
+		margin-bottom:1.5625rem;/*25*/
+		}
+	.pageonly-type .rr-summary .box-wrap .upper .info{
+		width:100%;
+		float:none;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:100%;
+		float:none;
+		text-align:center;
+		}
+	.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .info{
+		width:100%;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .upper.spa-urmo .photo{
+		width:100%;
+		}
+	.pageonly-type .menu-carton{
+		margin-bottom:1.25rem;/*20*/
+		}
+	.pageonly-type .menu-carton .menu-box .box{
+		margin-bottom:1.875rem;/*30*/
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary .l-box{
+		width:100%;
+		margin-right:0;
+		float:none;
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary .r-box{
+		width:100%;
+		float:none;
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab{
+		border-top:none;
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dt,
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd{
+		padding:0.625rem;/*10*/
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dt{
+		width:100%;
+		display:block;
+		background:#f2f0f7;
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd.time{
+		width:100%;
+		display:block;
+		margin:0;
+		}
+	.pageonly-type .menu-carton .menu-box .box > div.summary dl.rate-tab dd.note{
+		width:100%;
+		display:block;
+		margin:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .upper .info h3{
+		font-size:1.25rem;/*20px*/
+		}
+    }
+@media (max-width: 768px){
+/*--------------------
+sliderder style
+---------------------*/
+.scarehead03,
+.not #scarehead-carousel{
+	margin-bottom:0;
+	}
+	.pageonly-type .page-wrap{
+		padding:0 0.625rem;
+		}
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:1.25rem;/*20*/
+		padding-top:1.25rem;/*20*/
+		}
+	.pageonly-type .infoarea{
+		padding: 0 10%;
+		margin:0 auto 1.25rem;/*20*/
+		}
+	.pageonly-type .infoarea dl{
+		border-bottom:none;
+		}
+	.pageonly-type .infoarea dl dt{
+		width:100%;
+		display:block;
+		background:#f2f0f7;
+		padding-top: 0.3125rem;
+		padding-bottom: 0.3125rem;
+		padding-left: 0.625rem;
+		}
+	.pageonly-type .infoarea dl dd{
+		width:100%;
+		display:block;
+		}
+	.pageonly-type .menu-carton h3.pgname{
+		margin-bottom:1.25rem;/*20*/
+		}
+    }
+@media (max-width: 640px){
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:0.625rem;/*10*/
+		padding-top:0.625rem;/*10*/
+		padding-right:0.625rem;/*10*/
+		}
+	.captionview{
+		min-height:11.25rem;/*180*/
+		}
+	}
+@media (max-width: 600px){
+	.pageonly-type .page-wrap p.title{
+		margin-bottom:1.875rem;/*30px*/
+		padding:0 1.25rem;
+		text-align:left;
+		}
+	.pageonly-type .page-wrap p.title span{
+		display:inline;
+		}
+    }
+@media (max-width: 543px){
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:0.625rem;/*10*/
+		padding-right:0.625rem;/*10*/
+		}
+	.pageonly-type .rr-summary .box-wrap .upper .info h3{
+		font-size:1.125rem;/*18px*/
+		}
+.pageonly-type .supplies{
+	margin-bottom:0;
+	}
+.pageonly-type .supplies dl{
+	border-bottom:none;
+	}
+.pageonly-type .supplies dl:first-child{
+	border-top:none;
+	}
+.pageonly-type .supplies dl dt,
+.pageonly-type .supplies dl dd{
+	display:block;
+	}
+.pageonly-type .supplies dl dt{
+	width:100%;
+	background:#f2f0f7;
+	border-right:none;
+	}
+.pageonly-type .supplies dl dd{
+	width:100%;
+	}
+    }
+/*==============================================
+update(2015.12.18)/(▼page only style そのまま)
+===============================================*/
+/*▼(all.min.cssから移動する)=====================================================*/
+.headline--01 {
+  background: url("../../img/relaxation/relaxinfo_bk.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+/*配列調整のため（bgc配列切替）*/
+.items--relaxation .item:nth-child(odd){
+	background:#f2f0f7;
+	}
+.items--relaxation .item a{
+	color:#666;
+	}
+/*▲==============================================================================*/
+
+/*カテゴリカラー(文字)*/
+.subhead__block1,
+.subhead__block3,
+.scarehead05__sptitle{
+	background-color:#AA9BCC;
+	}
+.subhead__block2{
+	background-color:#f2f0f7;
+	}
+/*ボタンカラー*/
+.subhead .subhead_buttons a{
+	border-color:#e3dfee;
+	background-color:#fff;
+	color:#aa9bcc;
+	background-image:url("../../img/relaxation/deco_pdf.png");
+	background-repeat:no-repeat;
+	background-position:5px center;
+	padding-left:1.875rem;/*30*/
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+	.information{
+		margin-bottom:1.25rem;/*20*/
+		}
+	.items--relaxation .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--relaxation .item:nth-child(1),
+	.items--relaxation .item:nth-child(4),
+	.items--relaxation .item:nth-child(5),
+	.items--relaxation .item:nth-child(8),
+	.items--relaxation .item:nth-child(9){
+	    background-color:#f2f0f7;
+		}
+    }
+@media (max-width: 768px){
+	.information dt{
+		background:#E0EDF3;
+		padding-top:0.3125rem;/*10*/
+		padding-bottom:0.3125rem;/*10*/
+		padding-left:0.625rem;/*10*/
+		}
+	.items--relaxation .item:nth-child(odd){
+	    background-color: #f2f0f7;
+		}
+	.items--relaxation .item:nth-child(4),
+	.items--relaxation .item:nth-child(8){
+	    background-color:#fff;
+		}
+    }
+@media (max-width: 640px){
+	.items--relaxation .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--relaxation .item:nth-child(1),
+	.items--relaxation .item:nth-child(4),
+	.items--relaxation .item:nth-child(5),
+	.items--relaxation .item:nth-child(8),
+	.items--relaxation .item:nth-child(9){
+	    background-color:#f2f0f7;
+		}
+    }
+@media (max-width: 543px){
+    }

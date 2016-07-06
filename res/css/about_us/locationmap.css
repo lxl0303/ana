@@ -1,0 +1,29 @@
+/* CSS Information ===============================
+File name:about_us/locationmap.css
+Date: 2015.12
+Contents: *locationmap(pageOnlyStyle)
+================================================ */
+/*================
+locationmap
+=================*/
+.map{
+	width:100%;
+	text-align:center;
+	margin-bottom:5.9375rem;/*95px*/
+	}
+.map img{
+	width:100%;
+	max-width:32.875rem;/*526px*/
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+    }
+@media (max-width: 768px){
+    }
+@media (max-width: 543px){
+    }
+

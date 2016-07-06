@@ -1,0 +1,56 @@
+div.popupCalendar { cursor:pointer;}
+
+div.calendar_table { 
+	width:522px;
+	height:238px;
+	border: 1px solid #999999;
+	background: #e0e0e0;
+	position:absolute;
+	z-index: 9999;
+	font-size:12px;
+}
+
+#topPage div.move_prev a:link		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_prev a:visited		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_prev a:hover		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_prev a:active		{ color:#ffffff; text-decoration:underline; }
+
+#topPage div.move_next a:link		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_next a:visited		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_next a:hover		{ color:#ffffff; text-decoration:underline; }
+#topPage div.move_next a:active		{ color:#ffffff; text-decoration:underline; }
+
+div.move_line	{ width:495px; height:35px; margin-top:10px; background-color: #000066; margin-left:13px;line-height: 110%;}
+div.move_prev	{ margin:10px 0px 0px 10px; font-weight:bold; float:left; text-align:center;}
+div.move_next	{ margin:10px 10px 0px 0px; font-weight:bold; float:right; text-align:right;}
+
+div.calendar_line	{ width:510px; margin-top:5px; margin-left: 5px; }
+div.calendar_month	{ width:170px; float:left; text-align:center; }
+
+table.month_table { height:170px; height:20px; background-color: #aaaaaa; margin-left:auto; margin-right:auto; border-collapse:separate; border-spacing:1px;}
+table.month_table td{ text-align:center; font-size:12px; padding: 0px 0px 0px 0px;vertical-align:middle;}
+
+table.month_table td.month_label{ height:22px; color:#ffffff; background-color:#000066; padding:3px 0px 3px 0px; font-weight:bold; }
+
+table.month_table tr.date_row td { width:21px; height:20px; background-color:#ffffff; color:#000000; padding:0px 0px 0px 0px; }
+table.month_table tr.date_row td.calendar_sun_label { background-color: #ffcecf; }
+table.month_table tr.date_row td.calendar_sat_label { background-color: #cee1ff; }
+
+table.month_table tr.day_row td				{ height:20px; padding:0px 0px 0px 0px; background-color:#ffffff; overflow: hidden;}
+table.month_table tr.day_row td a 			{ padding:3px 0px 0px 0px; display:block; text-align:center; font-size:12px;}
+table.month_table tr.day_row td a:link		{ color:#00008B; text-decoration:none;}
+table.month_table tr.day_row td a:visited	{ color:#00008B; text-decoration:none;}
+table.month_table tr.day_row td a:hover		{ color:#00008B; text-decoration:none; background-color:#ffffd0;}
+table.month_table tr.day_row td a:active	{ color:#00008B; text-decoration:none;}
+
+table.month_table tr.day_row td.calendar_holiday	{ font-weight:bold; background-color: #ffcecf; }
+table.month_table tr.day_row td.calendar_sun		{ font-weight:bold; background-color: #ffcecf; }
+table.month_table tr.day_row td.calendar_wday		{ font-weight:bold; }
+table.month_table tr.day_row td.calendar_sat		{ font-weight:bold; background-color: #cee1ff; }
+
+table.month_table tr.day_row td.calendar_holiday_invalid	{ color: #999999; background-color: #ffcecf;}
+table.month_table tr.day_row td.calendar_sun_invalid		{ color: #999999; background-color: #ffcecf;}
+table.month_table tr.day_row td.calendar_sat_invalid		{ color: #999999; background-color: #cee1ff;}
+table.month_table tr.day_row td.calendar_wday_invalid		{ color: #999999;}
+
+iframe.over_popupCalendar { width:522px; height:238px;}

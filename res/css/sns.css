@@ -1,0 +1,269 @@
+/*updata0401*/
+
+/*-----------------------
+FOOTER SNS AREA (Overwrite)
+------------------------*/
+#official-warp{
+	padding-top:0;
+	background-position:0 0;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	}
+#official-sns{
+	background-color:transparent;
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	height:auto!important;
+	padding:80px auto;
+	}
+#official-sns h3{
+	margin:0 auto 60px auto !important;
+	}
+#official-sns .gadgets{
+	width:100%;
+	padding:80px 50px;
+	}
+#official-sns .gadgets .content-uper{
+	width:100%;
+	max-width:880px;
+	margin:0 auto 50px;
+	}
+#official-sns .gadgets .content-uper .box{
+	width:31.818181818%;/*280*/
+	float:left;
+	margin:0 0 0 2.272727272%;
+	pading:0;
+	}
+#official-sns .gadgets .content-uper .fb .sp{
+	display:none;
+	}
+#official-sns .gadgets .content-uper .box:first-child{
+	margin-left:0;
+	}
+#official-sns .gadgets .content-uper .box h4{
+	width:100%;
+	text-align:left;
+	}
+#official-sns .gadgets .content-uper .box h4 a{
+	width:100%;
+	display:block;
+	height:32px;
+	}
+#official-sns .gadgets .content-uper .fb h4 img{
+	width:100%;
+	max-width:126px;
+	}
+#official-sns .gadgets .content-uper .tw h4 img{
+	width:100%;
+	max-width:101px;
+	}
+#official-sns .gadgets .content-uper .ig h4 img{
+	width:100%;
+	max-width:129px;
+	}
+#official-sns .gadgets .content-uper .ig .bk{
+	width:100%;/*280*/
+	height:360px;
+	background:#fff;
+	padding:5px;
+	position:relative;
+	}
+#official-sns .gadgets .content-uper .ig #instagram *{
+	background:#fff;
+	}
+/*--Instagram Img width Col3--*/
+#official-sns .gadgets .content-uper .ig #instagram .instagram_photo{
+	width:33.33333333%;
+	float:left;
+	padding:5px 1.851851851%;
+	}
+#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+	width:100%;
+	display:block;
+	height:77px;
+	overflow:hiddne;
+	}
+#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a img{
+	width:100%;
+	max-width:auto;
+	}
+#official-sns .gadgets .content-under{
+	width:100%;
+	}
+#official-sns .gadgets .content-under ul{
+	width:100%;
+	max-width:286px;
+	margin:0 auto 0;
+	}
+#official-sns .gadgets .content-under ul li{
+	float:left;
+	}
+#official-sns .gadgets .content-under ul li.tw{
+	display:none;/*window440pxunder:block*/
+	}
+#official-sns .gadgets .content-under ul li a{
+	width:100%;
+	}
+#official-sns .gadgets .content-under ul li a img.sp{
+	display:none;
+	}
+#official-sns .gadgets .content-under ul li.gg{
+	width:39.86013986%;/*114*/
+	margin-right:20.97902097%;/*60*/
+	}
+#official-sns .gadgets .content-under ul li.gg img{
+	width:100%;
+	max-width:114px;
+	}
+#official-sns .gadgets .content-under ul li.yt{
+	width:39.16083916%;/*112*/
+	}
+#official-sns .gadgets .content-under ul li.yt img{
+	width:100%;
+	max-width:112px;
+	}
+/*-----------------------
+RESPONSIVE
+------------------------*/
+
+/*==================================
+widow-width:940=(gadgets-width:600)
+==================================*/
+@media only screen and (max-width:940px){
+	#official-warp{
+		background-position:center center;
+		}
+	#official-sns .gadgets .content-uper{
+		max-width:500px;
+		}
+	#official-sns .gadgets .content-uper .fb.box,
+	#official-sns .gadgets .content-uper .tw.box{
+		width:48%;/*240*/
+		}
+	#official-sns .gadgets .content-uper .tw.box{
+		margin-left:4%;
+		}
+	#official-sns .gadgets .content-uper .ig.box{
+		width:100%;
+		clear:both;
+		margin-left:0;
+		margin-top:28px;
+		}
+	#official-sns .gadgets .content-uper .ig .bk{
+		height:auto;
+		}
+	/*--Instagram Img width Col5--*/
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo{
+		width:20%;
+		padding:1%;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo:nth-child(n+11){
+		display:none;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+		height:87px;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a img{
+		max-width:90px;
+		}
+	}
+@media only screen and (max-width:750px){
+	#official-sns h3{
+		margin:0 auto 30px auto !important;
+		}
+	#official-sns .gadgets{
+		padding:60px 20px;
+		}
+	}
+@media only screen and (max-width:480px){
+	#official-sns .gadgets .content-uper{
+		margin-bottom:20px;
+		}
+	#official-sns .gadgets .content-uper .fb .pc{
+		display:none;
+		}
+	#official-sns .gadgets .content-uper .fb.box{
+		width:100%;
+		float:none;
+		margin:0;
+		}
+	#official-sns .gadgets .content-uper .tw{
+		display:none;
+		}
+	#official-sns .gadgets .content-uper .fb .sp{
+		display:block;
+		}
+	#official-sns .gadgets .content-uper .ig.box{
+		margin-top:20px;
+		}
+	/*--Instagram Img width Col3--*/
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo{
+		width:33.33333333%;
+		padding:1.851851851%;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo:nth-child(n+4){
+		display:none;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+		height:115px;
+		}
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a img{
+		max-width:auto;
+		}
+	#official-sns .gadgets .content-under ul{
+		max-width:402px;
+		}
+	#official-sns .gadgets .content-under ul li{
+		float:left;
+		}
+	#official-sns .gadgets .content-under ul li.tw{
+		display:block;
+		width:31.5920398%;
+		margin-right:2.487562189%;
+		}
+	#official-sns .gadgets .content-under ul li.tw img{
+		width:100%;
+		max-width:127px;
+		}
+	#official-sns .gadgets .content-under ul li.gg{
+		width:31.84079601%;
+		margin-right:2.487562189%;
+		}
+	#official-sns .gadgets .content-under ul li.gg img{
+		width:100%;
+		max-width:128px;
+		}
+	#official-sns .gadgets .content-under ul li.yt{
+		width:31.5920398%;
+		}
+	#official-sns .gadgets .content-under ul li.yt img{
+		width:100%;
+		max-width:127px;
+		}
+	#official-sns .gadgets .content-under ul li a img.sp{
+		display:block;
+		}
+	#official-sns .gadgets .content-under ul li a img.pc{
+		display:none;
+		}
+	}
+@media only screen and (max-width:414px){/*iphone6plus*/
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+		height:110px;
+		}
+	}
+@media only screen and (max-width:375px){/*iphone6*/
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+		height:95px;
+		}
+	}
+@media only screen and (max-width:320px){/*iphone5*/
+	#official-sns .gadgets .content-uper .ig #instagram .instagram_photo a{
+		height:80px;
+		}
+	}

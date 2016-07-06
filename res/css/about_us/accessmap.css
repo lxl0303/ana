@@ -1,0 +1,100 @@
+/* CSS Information ===============================
+File name:about_us/accessmap.css
+Date: 2015.12
+Contents: *accessmap(pageOnlyStyle)
+================================================ */
+/*================
+accessmap
+=================*/
+h2{
+	font-size:1.125rem;/*18px*/
+	padding:0.625rem 1.5625rem;/*10px,25px*/
+	background:#f3f3f3;
+	}
+.map{
+	width:100%;
+	text-align:center;
+	margin-bottom:3.75rem;/*60px*/
+	}
+.map img{
+	width:100%;
+	max-width:43.125rem;/*690px*/
+	}
+.summary{
+	width:100%;
+	}
+.summary dl{
+	border-bottom:solid 1px #c8eaf2;
+	padding:0.625rem 1.25rem;/*10px,20px*/
+	font-size:0.875rem;/*14px*/
+	}
+.summary dl:first-child{
+	border-top:solid 1px #c8eaf2;
+	}
+.summary dl:first-child dt{
+	padding-top:0.3125rem;/*5*/
+	}
+.summary dl dd{
+	margin-bottom:0;
+	}
+.summary dl dd div span{
+	display:block;
+	margin-bottom:0.625rem;/*10px*/
+	font-weight:bold;
+	}
+.summary dl dd a{
+	padding:0.3125rem 0.9375rem;/*5px,15px*/
+	background:#D5EFF5;
+	margin-left:1.25rem;/*20px*/
+	display:inline-block;
+	}
+.summary dl dd a:link,
+.summary dl dd a:hover{
+	text-decoration:none;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 930px){
+	.summary dl dd a{
+		margin-left:0;
+		display:block;
+		width:9.375rem;/*150*/
+		text-align:center;
+		margin-top:0.625rem;/*10*/
+		}
+	.summary dl:first-child dt{
+		padding-top:0;
+		}
+    }
+@media (max-width: 640px){
+	.map{
+		margin-bottom:2.5rem;/*40*/
+		}
+	}
+@media (max-width: 543px){
+	.summary dl{
+		padding:0.625rem 0;/*0,10px*/
+		border-bottom:none;
+		}
+	.summary dl:first-child{
+		border-top:none;
+		}
+	.summary dl dt{
+		color:#fff;
+		background:#75CBDF;
+		padding:0.3125rem;/*5px*/
+		margin-bottom:0.625rem;/*10px*/
+		}
+	.summary dl:first-child dt{
+		padding-top:0.3125rem;
+		}
+    }
+@media (max-width: 480px){
+	.summary dl dd a{
+		margin-left:0;
+		display:block;
+		text-align:center;
+		width:40%;
+		}
+    }

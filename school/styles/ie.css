@@ -1,0 +1,11 @@
+
+
+/*PDFダウンロード/
+グランドメニュー*/
+
+ul.pdflist li a {
+	
+	background-image: url(../../cmn/ie/img/PDF.png);
+}
+
+/* Localized */

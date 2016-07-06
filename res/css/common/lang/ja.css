@@ -1,0 +1,71 @@
+@media (min-width: 769px) {
+  .gnav__stay {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px -82px;
+    width: 240px;
+    height: 36px; }
+  .gnav__activity {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px -123px;
+    width: 240px;
+    height: 36px; }
+  .gnav__restaurant {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px -164px;
+    width: 240px;
+    height: 36px; }
+  .gnav__relaxation {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px -173px;
+    width: 240px;
+    height: 36px; }
+  .gnav__shop {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px 0px;
+    width: 240px;
+    height: 36px; }
+  .gnav__banquet {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px -41px;
+    width: 240px;
+    height: 36px; }
+  .gnav__wedding {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px 0px;
+    width: 240px;
+    height: 59px; }
+  .gnav__reservation {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px -252px;
+    width: 166px;
+    height: 40px; }
+  .gnav__ana {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px -110px;
+    width: 166px;
+    height: 58px; }
+  .gnav__inquiry {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px -64px;
+    width: 240px;
+    height: 41px; }
+  .gnav__faq {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: 0px -214px;
+    width: 240px;
+    height: 33px; }
+  .gnav__accessmap {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -245px -214px;
+    width: 240px;
+    height: 33px; }
+  .gnav__lang-left {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -171px -252px;
+    width: 124px;
+    height: 33px; }
+  .gnav__lang-right {
+    background-image: url(../../../img/common/sprites/ja.png);
+    background-position: -300px -252px;
+    width: 116px;
+    height: 33px; } }
