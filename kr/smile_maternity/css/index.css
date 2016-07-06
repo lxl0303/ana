@@ -1,0 +1,834 @@
+@charset"UTF-8";
+/* CSS Information ===============================
+File name:index.css
+Date: 2015.12
+Contents: *smile_maternity(pageOnlyStyle)<CN lang>
+================================================ */
+/*====================
+public
+=====================*/
+html{
+	font-size:16px;/*base:1rem*/
+	}
+body {
+    color: #645f5c;
+    font-family: "Helvetica Neue",Helvetica, "Microsoft YaHei", "微软雅黑",'SimSun', tahoma,arial,"Hiragino Sans GB", 宋体, sans-serif;
+    background:#fff;
+	}
+*, *:before, *:after{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	}
+.fc_pink{color:#ce6852;}
+.fc_brown{color:#6e4c10;}
+/*====================
+link
+=====================*/
+a{/*link text*/
+	color:#ce6852;
+	text-decoration:underline;
+	}
+a:link{/*未訪問*/
+	color:#ce6852;
+	}
+a:visted{/*訪問後*/
+	color:#6e4c10;
+	}
+a:hover{
+	color:#6e4c10;
+	text-decoration:none;
+	}
+a:active{/*click*/
+	color:#ce6852;
+	}
+/*====================
+Micro clearfix
+=====================*/
+.cf:before,
+.cf:after{
+    content:"";
+    display:table;
+	}
+.cf:after{
+    clear:both;
+	}
+/* For IE 6/7 (trigger hasLayout) */
+.cf{
+    zoom:1;
+	}
+/*====================
+seciton
+=====================*/
+#wrap{
+	width:100%;
+	position:relative;
+	}
+#container{
+	width:100%;
+	position:relative;
+	}
+#wrap #container .content{
+	position:relative;
+	width:100%;
+	max-width:1290px;/*1290px*/
+	margin:0 auto 0;
+	}
+.con_wrap{/*safari bug*/
+	max-width:960px;
+	margin:0 auto 0;
+	}
+/*====================
+page-decoration
+=====================*/
+#page_deco{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+	width:100%;
+	height:1.25rem;/*20px*/
+	background:url(../img/head_deco.png) repeat-x 0 0;
+	}
+/*====================
+main(00)
+=====================*/
+#main{
+	width:100%;
+	height:27.9375rem;/*447px*/
+	background:url(../img/main_bk.png) no-repeat 30% 38%;
+	}
+#main .mama{
+	width:auto;
+	float:right;
+	}
+#main .mama img{
+	width:auto;
+	max-height:27.9375rem;/*447px*/
+	}
+#main h1{
+	position:absolute;
+	top:5rem;/*80px*/
+	width:100%;
+	}
+#main h1,
+#main h1 span{
+	width:100%;
+	text-align:center;
+	margin:0 auto 0;
+	display:block;
+	}
+#main h1 span{
+	margin-bottom:0.625rem;/*10px*/
+	}
+#main h1 span img{
+	width:100%;
+	height:auto;
+	}
+#main h1 span:first-child img{
+	max-width:24.6875rem;/*395px*/
+	width:395px\9;
+	}
+#main h1 span:first-child + span img{
+	max-width:16.25rem;/*260px*/
+	width:260px\9;
+	}
+#main h1 span:first-child + * + span img{
+	max-width:43.0625rem;/*689px*/
+	width:689px\9;
+	}
+#main h1 span:first-child + * + * + * + span img{
+	max-width:15.4375rem;/*247px*/
+	width:247px\9;
+	}
+#main h1 .line{
+	width:1.4375rem;/*23px*/
+	height:0.125rem;/*2px*/
+	margin:0 auto 0.625rem;/*10px*/
+	background:url(../img/trans_line.png) repeat 0 0;
+	}
+/*====================
+goods(01)
+=====================*/
+#goods{
+	width:100%;
+	background:url(../img/maternity_bg_pattern.jpg) repeat 0 0;
+	}
+#goods .bg{
+	width:100%;
+	background:url(../img/flower_bk.png) no-repeat center center;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	padding-bottom:5rem;/*80px*/
+	}
+#goods h2{
+	width:100%;
+	text-align:center;
+	margin:0 auto 0;
+	padding-top:3.75rem;/*60px*/
+	}
+#goods h2 > span{
+	width:100%;
+	display:block;
+	padding-bottom:1.5625rem;/*25px*/
+	}
+#goods h2 > span:first-child img{
+	width:100%;
+	max-width:15.0625rem;/*241px*/
+	width:241px\9;
+	}
+#goods h2 > span:first-child + span img{
+	width:auto;
+	max-height:1.5rem;/*24px*/
+	text-align:center;
+	}
+#goods .inbox{
+	width:100%;
+	max-width:60rem;/*960px*/
+	padding:0 0.625rem;/*10px*/
+	margin:0 auto 0;
+	}
+#goods .inbox figure{
+	width:100%;
+	max-width:58.75rem;/*940px*/
+	display:table;
+	margin-bottom:0.625rem;/*10px*/
+	}
+#goods .inbox figure .view{
+	width:23.40425531%;
+	max-width:13.75rem;/*220px*/
+	display:table-cell;
+	position:relative;
+	}
+#goods .inbox figure .view span{
+	width:100%;
+	max-width:10rem;/*160px*/
+	display:block;
+	float:right;
+	position:relative;
+	}
+#goods .inbox figure .view span p{
+	position:absolute;
+	left:0;
+	bottom:0.9375rem;/*15px*/
+	width:100%;
+	text-align:center;
+	font-size:0.625rem;/*10px*/
+	}
+#goods .inbox figure .view span p.color1{
+	color:#fff;
+	}
+#goods .inbox figure .view span p.color2{
+	color:#ce6852;
+	}
+#goods .inbox figure .view span img{
+	width:100%;
+	max-width:10rem;/*160px*/
+	width:160px\9;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	}
+#goods .inbox figure figcaption{
+	width:100%;
+	max-width:45rem;/*720px*/
+	display:table-cell;
+	padding-left:1.25rem;/*20px*/
+	padding-right:4.375rem;/*70px*/
+	}
+#goods .inbox figure figcaption dl{
+	line-height:1.6em;
+	font-size:0.875rem;/*14px*/
+	}
+#goods .inbox figure figcaption dl dt{
+	font-size:1.1875rem;/*19px*/
+	margin-bottom:1.25rem;/*20px*/
+	}
+/*====================
+esthtic(02)
+=====================*/
+#esthtic{
+	width:100%;
+	background:#fff;
+	}
+#esthtic .bg{
+	width:100%;
+	background:url(../img/privilege_bk.png) no-repeat center center;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	}
+#esthtic .inbox{
+	width:100%;
+	max-width:60rem;/*960px*/
+	padding:3.75rem 0.625rem 3.75rem 0.625rem;/*65px,10px*/
+	margin:0 auto 0;
+	}
+#esthtic .inbox figure{
+	width:48.93617021%;
+	max-width:28.75rem;/*460px*/
+	float:left;
+	vertical-align:top;
+	}
+#esthtic .inbox figure h2{
+	width:100%;
+	}
+#esthtic .inbox figure h2 span{
+	width:100%;
+	text-align:center;
+	display:block;
+	padding-bottom:1.5625rem;/*25px*/
+	}
+#esthtic .inbox figure h2 span:first-child img{
+	width:100%;
+	max-width:15.6875rem;/*251px*/
+	width:251px\9;
+	}
+#esthtic .inbox figure h2 span:first-child + span img{
+	width:auto;
+	max-height:1.5rem;/*24px*/
+	text-align:center;
+	}
+#esthtic .inbox figure ul{
+	width:100%;
+	line-height:1.6em;
+	font-size:0.875rem;/*14px*/
+	}
+#esthtic .inbox figure ul li:first-child{
+	margin-bottom:1.875rem;/*30px*/
+	}
+#esthtic .inbox .view{
+	width:51.0638298%;
+	max-width:30rem;/*480px*/
+	padding-left:5rem;/*80px*/
+	padding-top:1.875rem;/*30px*/
+	float:left;
+	text-align:center;
+	}
+#esthtic .inbox .view img{
+	width:100%;
+	max-width:25rem;/*400px*/
+	width:400px\9;
+	}
+/*====================
+privilege(03)
+=====================*/
+#privilege{
+	width:100%;
+	background:url(../img/maternity_bg_pattern.jpg) repeat 0 0;
+	}
+#privilege .bg{
+	width:100%;
+	background:url(../img/flower_bk.png) no-repeat center center;
+	background-size:100% auto;
+	-moz-background-size:100% auto;
+	-webkit-background-size:100% auto;
+	-ms-background-size:100% auto;
+	-o-background-size:100% auto;
+	padding-bottom:0.9375rem;/*15px*/
+	background-position:0 -200px;
+	}
+#privilege .inbox{
+	width:100%;
+	max-width:60rem;/*960px*/
+	padding:3.75rem 0.625rem 3.75rem 0.625rem;/*65px,10px*/
+	margin:0 auto 0;
+	}
+#privilege h2{
+	width:100%;
+	text-align:center;
+	}
+#privilege h2 > span{
+	width:100%;
+	display:block;
+	padding-bottom:1.5625rem;/*25px*/
+	}
+#privilege h2 > span:first-child img{
+	width:100%;
+	max-width:15.6875rem;/*251px*/
+	width:251px\9;
+	}
+#privilege h2 > span:first-child + span img{
+	width:auto;
+	max-height:1.5rem;/*24px*/
+	text-align:center;
+	}
+#privilege .inbox figure{
+	margin-bottom:5rem;/*80px*/
+	}
+#privilege .inbox figure ul.lead{
+	width:100%;
+	max-width:42.8125rem;/*685px*/
+	line-height:1.6em;
+	font-size:0.875rem;/*14px*/
+	margin:0 auto 5rem;/*80px*/
+	}
+#privilege .inbox figure ul li:first-child{
+	margin-bottom:1.875rem;/*30px*/
+	}
+#privilege .inbox h3{
+	font-size:1.1875rem;/*19px*/
+	font-weight:normal;
+	text-align:center;
+	margin-bottom:0.625rem;/*10px*/
+	line-height:1.6em;
+	}
+#privilege .inbox figure table{
+	width:100%;
+	text-align:left;
+	font-size:0.8125rem;/*13px*/
+	line-height:1.6em;
+	margin-bottom:0.9375rem;/*15px*/
+	}
+#privilege .inbox figure table th{
+	background:#e6a597;
+	padding:0.9375rem 1.5625rem;/*15px,25px*/
+	color:#fff;
+	font-weight:normal;
+	border-left:solid 1px #E7E1E1;
+	}
+#privilege .inbox figure table td{
+	background:#fff;
+	padding:0.9375rem 1.5625rem;/*15px,25px*/
+	border-left:solid 1px #E7E1E1;
+	border-bottom:solid 1px #E7E1E1;
+	color:#6e4c10;
+	}
+#privilege .inbox figure table td:first-child{
+	border-left:none;
+	font-weight:bold;
+	}
+#privilege .inbox figure table th:first-child{
+	width:21.27659574%;/*200px*/
+	border-left:none;
+	}
+#privilege .inbox figure table th:first-child + th{
+	width:50.74468085%;/*477px*/
+	}
+#privilege .inbox figure table th:first-child + th + th{
+	width:27.9787234%;/*263px*/
+	}
+#privilege .inbox figure ul.check{
+	text-align:left;
+	line-height:1.6em;
+	font-size:0.75rem;/*12px*/
+	}
+#privilege .inbox figure ul.check li{
+	margin-bottom:0.625rem;/*10px*/
+	}
+#privilege .inbox ul.rental{
+	text-align:center;
+	font-size:0.875rem;/*14px*/
+	line-height:1.6em;
+	padding-top:1.25rem;/*20px*/
+	}
+/*====================
+restaurants(04)
+=====================*/
+#restaurants{
+	width:100%;
+	background:#fff;
+	}
+#restaurants .bg{
+	width:100%;
+	background:#fff;
+	padding-bottom:4.375rem;/*70px*/
+	}
+#restaurants .inbox{
+	width:100%;
+	max-width:60rem;/*960px*/
+	padding:3.75rem 0.625rem 3.75rem 0.625rem;/*65px,10px*/
+	margin:0 auto 0;
+	}
+#restaurants .inbox figure{
+	width:47.9166666666%;
+	max-width:28.75rem;/*460px*/
+	vertical-align:top;
+	float:right;
+	}
+#restaurants .inbox figure h2{
+	width:100%;
+	}
+#restaurants .inbox figure h2 span{
+	width:100%;
+	text-align:center;
+	display:block;
+	padding-bottom:1.5625rem;/*25px*/
+	}
+#restaurants .inbox figure h2 span:first-child img{
+	width:100%;
+	max-width:17.5625rem;/*281px*/
+	width:281px\9;
+	}
+#restaurants .inbox figure h2 span:first-child + span img{
+	width:auto;
+	max-height:1.5rem;/*24px*/
+	text-align:center;
+	}
+#restaurants .inbox figure p{
+	width:100%;
+	line-height:1.6em;
+	font-size:0.875rem;/*14px*/
+	text-align:left;
+	}
+#restaurants .inbox .view{
+	width:50%;
+	max-width:30rem;/*480px*/
+	padding-right:5rem;/*80px*/
+	text-align:center;
+	float:left;
+	}
+#restaurants .inbox .view img{
+	width:100%;
+	max-width:25rem;/*400px*/
+	width:400px\9;
+	}
+#restaurants .inbox2{
+	width:100%;
+	max-width:60rem;/*960px*/
+	padding:0 0.625rem;/*0,10px*/
+	margin:0 auto 0;
+	}
+#restaurants h3{
+	font-size:1.1875rem;/*19px*/
+	font-weight:normal;
+	text-align:center;
+	margin-bottom:0.625rem;/*10px*/
+	line-height:1.6em;
+	}
+#restaurants table{
+	width:100%;
+	text-align:left;
+	font-size:0.8125rem;/*13px*/
+	line-height:1.6em;
+	margin:0 auto 0.9375rem;/*15px*/
+	}
+#restaurants table th{
+	background:#e6a597;
+	padding:0.9375rem 1.5625rem;/*15px,25px*/
+	color:#fff;
+	font-weight:normal;
+	border-left:solid 1px #E7E1E1;
+	}
+#restaurants table td{
+	background:#FFF7F3;
+	padding:0.9375rem 1.5625rem;/*15px,25px*/
+	border-left:solid 1px #E7E1E1;
+	border-right:solid 1px #E7E1E1;
+	border-bottom:solid 1px #E7E1E1;
+	color:#6e4c10;
+	}
+#restaurants table td span{
+	display:inline-block;
+	}
+#restaurants table td:first-child{
+	font-weight:bold;
+	}
+#restaurants table th:first-child{
+	width:21.27659574%;/*200px*/
+	border-left:none;
+	}
+#restaurants table th:first-child + th{
+	width:78.7234043%;/*740px*/
+	}
+#restaurants ul.check{
+	width:100%;
+	text-align:left;
+	line-height:1.6em;
+	font-size:0.75rem;/*12px*/
+	margin:0 auto 0;
+	}
+#restaurants ul.check li{
+	margin-bottom:0.625rem;/*10px*/
+	}
+/*====================
+footer
+=====================*/
+#footer{
+	width:100%;
+	background:#e6a597;
+	text-align:center;
+	padding:3.125rem 0.625rem;/*50px,10px*/
+	}
+#footer h4{
+	width:100%;
+	margin-bottom:2.5rem;/*40px*/
+	}
+#footer h4 img{
+	width:100%;
+	max-width:9.6875rem;/*155px*/
+	}
+#footer p{
+	font-size:0.6875rem;/*11px*/
+	color:#fff;
+	line-height:1.5em;
+	}
+#footer p span{
+	display:inline-block;
+	}
+/*====================
+pagetop(scroll)
+=====================*/
+p.pagetop{
+	position: fixed;
+	bottom: 20px;
+	right:20px;
+	z-index:9999;
+	}
+p.pagetop a{
+	text-decoration: none;
+	padding:10px;
+	text-align: center;
+	display: block;
+	background:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	}
+p.pagetop a:hover{
+	text-decoration: none;
+	opacity:0.8;
+	}
+p.pagetop a img{
+	width:50px;
+	}
+/*====================
+Responsive
+=====================*/
+@media only screen and (max-width:1290px){
+	#main{
+		background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+		-ms-background-size:cover;
+		-o-background-size:cover;
+		background-position:0 46%;
+		}
+	#main .mama{
+		width:100%;
+		max-width:14.375rem;/*230px*/
+		overflow-x:hidden;
+		}
+	#goods .bg{
+		padding-bottom:2.5rem;/*40px*/
+		}
+	#goods .inbox{
+		padding:0 0.9375rem;/*15px*/
+		}
+	#goods h2{
+		padding-top:1.875rem;/*30px*/
+		}
+	#goods .inbox figure figcaption{
+		padding-right:0;
+		}
+	#esthtic .inbox,
+	#restaurants .inbox{
+		padding-top:1.875rem;/*30px*/
+		}
+	#privilege .inbox{
+		padding-top:1.875rem;/*30px*/
+		}
+	}
+@media only screen and (max-width:1050px){
+	#esthtic .inbox figure,
+	#restaurants .inbox figure{
+		width:44.68085106%;
+		max-width:26.25rem;/*420px*/
+		}
+	#esthtic .inbox .view{
+		width:55.31914893%;
+		max-width:32.5rem;/*520px*/
+		padding-left:1.25rem;/*20px*/
+		}
+	#restaurants .inbox .view{
+		width:55.31914893%;
+		max-width:32.5rem;/*520px*/
+		padding-right:1.25rem;/*20px*/
+		}
+	#esthtic .inbox .view img,
+	#restaurants .inbox .view img{
+		max-width:31.25rem;/*500px*/
+		}
+	}
+@media only screen and (max-width:768px){
+	#main h1 span:first-child + span + span img{
+		max-width:33.75rem;/*540px*/
+		}
+	#main{
+		background-position:-95px 46%;
+		}
+	#goods .bg{
+		background-position:0px -130px;
+		}
+	#goods h2{
+		padding-top:0.9375rem;/*15px*/
+		}
+	#esthtic .inbox,
+	#restaurants .inbox{
+		padding-top:0.9375rem;/*15px*/
+		}
+	#esthtic .inbox figure,
+	#restaurants .inbox figure{
+		width:100%;
+		max-width:100%;
+		float:none;
+		}
+	#esthtic .inbox figure ul li,
+	#esthtic .inbox figure ul li:first-child{
+		margin-bottom:0.9375rem;/*15px*/
+		}
+	#esthtic .inbox .view{
+		width:100%;
+		max-width:100%;
+		padding-left:0;
+		padding-top:0;
+		float:none;
+		}
+	#esthtic .inbox .view img,
+	#restaurants .inbox .view img{
+		max-width:30rem;/*480px*/
+		}
+	#privilege .bg{
+		padding-bottom:0;
+		}
+	#privilege .inbox{
+		padding-top:0.9375rem;/*15px*/
+		}
+	#privilege h2{
+		margin:0 auto 0;
+		}
+	#privilege .inbox figure ul.lead{
+		width:100%;
+		max-width:100%;
+		margin:0 auto 1.875rem;/*30px*/
+		}
+	#privilege .inbox figure{
+		margin-bottom:1.875rem;/*30px*/
+		}
+	#restaurants .bg{
+		padding-bottom:2.1875rem;/*35px*/
+		}
+	#restaurants .inbox .view{
+		width:100%;
+		max-width:100%;
+		padding-right:0;
+		display:block;
+		}
+	#restaurants .inbox{
+		padding-bottom:0.9375rem;/*15px*/
+		}
+	#restaurants .inbox figure{
+		margin-bottom:0.9375rem;/*15px*/
+		}
+	#footer{
+		padding:0.9375rem 0.625rem;/*15px*/
+		}
+	#footer h4{
+		margin-bottom:0.9375rem;/*15px*/
+		}
+	/*--------------------------------------------*/
+	#goods h2 > span:first-child img{
+		max-width:15rem;/*240px*/
+		}
+	#esthtic .inbox figure h2 span:first-child img{
+		max-width:15.625rem;/*250px*/
+		}
+	#privilege h2 > span:first-child img{
+		max-width:15.625rem;/*250px*/
+		}
+	#restaurants .inbox figure h2 span:first-child img{
+		max-width:17.5rem;/*280px*/
+		}
+	}
+@media only screen and (max-width:640px){
+	#main{
+		width:auto;
+		max-height:25rem;/*400px*/
+		background-position:-95px 46%;
+		}
+	#main .mama{
+		width:100%;
+		max-width:17.5rem;/*230px*/
+		overflow:hidden;
+		}
+	#main .mama img{
+		width:auto;
+		max-height:25rem;/*400px*/
+		}
+	#main h1{
+		top:2.5rem;/*40px*/
+		padding:0 0.625rem;/*10px*/
+		}
+	#main h1 span{
+		margin-bottom:0.3125rem;/*5px*/
+		}
+	#main h1 span:first-child img{
+		max-width:33.75rem;/*540px*/
+		}
+	#goods .inbox figure .view span p{
+		position:static;
+		font-size:0.875rem;/*14px*/
+		padding-top:0.625rem;/*10px*/
+		}
+	#goods .inbox figure .view span p.color1,
+	#goods .inbox figure .view span p.color2{
+		color:#6e4c10;
+		}
+	#privilege h2 > span:first-child + span img{
+		display:block;
+		margin:0 auto 0.625rem;/*10px*/
+		}
+	#privilege .inbox figure table th{
+		padding:0.625rem 0.9375rem;/*10px,15px*/
+		}
+	#privilege .inbox figure table td{
+		padding:0.625rem 0.9375rem;/*10px,15px*/
+		}
+	#restaurants table th{
+		padding:0.625rem 0.9375rem;/*10px,15px*/
+		}
+	#restaurants table td{
+		padding:0.625rem 0.9375rem;/*10px,15px*/
+		}
+	p.pagetop{
+		bottom:0px;
+		right:5px;
+		}
+	p.pagetop a img{
+		width:30px;
+		}
+	#restaurants table th:first-child{
+		width:27.65957446%;/*260px*/
+		}
+	#restaurants table th:first-child + th{
+		width:72.34042553%;/*680px*/
+		}
+	}
+@media only screen and (max-width:480px){
+	html{
+		font-size:14px;/*base:1rem*/
+		}
+	#goods .bg{
+		background-position:-50px -100px;
+		}
+	#goods .inbox figure:first-child{
+		margin-bottom:1.25rem;/*20px*/
+		}
+	#goods .inbox figure .view,
+	#goods .inbox figure figcaption{
+		vertical-align:top;
+		}
+	#goods .inbox figure figcaption dl dt{
+		margin-bottom:0.625rem;/*10px*/
+		}
+	}
