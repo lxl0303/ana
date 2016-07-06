@@ -1,0 +1,451 @@
+/* CSS Information ===============================
+File name:shop/common.css
+Date: 2015.12
+Contents: *shop
+================================================ */
+/*================
+shop
+=================*/
+html{
+	width:100%;
+	height:100%;
+	}
+.pageonly-type .page-wrap{
+	width:100%;
+	max-width:1050px;
+	text-align:left;
+	margin:3.125rem auto 1.875rem;/*50,20px*/
+	}
+.pageonly-type  #recommends-carousel span{
+	color:#539ADB;
+	}
+.pageonly-type  #recommends-carousel a{
+	display:block;
+	width:100%;
+	color:#666;
+	}
+.pageonly-type  #recommends-carousel a:hover{
+	background:#ddf5f8;
+	}
+/*================
+box-wrap
+=================*/
+.pageonly-type .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:1.25rem;/*20*/
+	text-align:left;
+	}
+.pageonly-type .box-wrap:last-child{
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .page-wrap p.title{
+	text-align:center;
+	line-height:2rem;
+	margin-bottom:2.5rem;/*40px*/
+	}
+.pageonly-type .page-wrap p.title span{
+	display:block;
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .page-wrap .ecitem{
+	display:table;
+	width:100%;
+	max-width:56.875rem;/*910px*/
+	background:#e5f0fa;
+	padding:1.875rem 1.25rem 1.875rem;/*30,20,30,50*/
+	margin:0 auto 2.5rem;/*40*/
+	}
+.pageonly-type .page-wrap .ecitem p{
+	max-width:16.4375rem;/*263*/
+	display:table-cell;
+	text-align:center;
+	margin:0;
+	vertical-align:middle;
+	}
+.pageonly-type .page-wrap .ecitem p a{
+	width:100%;
+	padding:0.625rem;/*15*/
+	background:#539ADB;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	}
+.pageonly-type .page-wrap .ecitem p a:hover{
+	text-decoration:none;
+	}
+.pageonly-type .page-wrap .ecitem ul{
+	list-style-type:none;
+	max-width:36.0625rem;/*577*/
+	diplay:table-cell;
+	font-size:0.875rem;/*14px*/
+	vertical-align:middle;
+	margin:0;
+	padding:0 1.25rem 0 0;/*20*/
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.pageonly-type .page-wrap .ecitem{
+		width:100%;
+		max-width:100%;
+		background:#e5f0fa;
+		padding:1.25rem;
+		margin:0 auto 1.25rem;/*20*/
+		}
+    }
+@media (max-width: 991px){
+    }
+@media (max-width: 768px){
+	.pageonly-type .page-wrap{
+		padding:0 0.625rem;
+		}
+    }
+@media (max-width: 600px){
+	.pageonly-type .page-wrap p.title{
+		margin-bottom:1.875rem;/*30px*/
+		padding:0 1.25rem;
+		text-align:left;
+		}
+	.pageonly-type .page-wrap p.title span{
+		display:inline;
+		}
+	.pageonly-type .box-wrap:last-child{
+		margin-bottom:1.5625rem;/*25*/
+		}
+    }
+@media (max-width: 543px){
+	.pageonly-type .page-wrap .ecitem ul{
+		max-width:100%;
+		diplay:block;
+		margin-bottom:0.625rem;
+		padding:0 0 0 0;
+		}
+	.pageonly-type .page-wrap .ecitem p{
+		max-width:100%;
+		display:block;
+		}
+    }
+
+/*==============================================
+update(2015.12.18)/
+===============================================*/
+.headline--01 {
+  background: url("../../img/shop/shopinfo_bk.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.items--shop .item:nth-child(odd){
+	background:#e5f0fa;
+	}
+.items--shop .item a{
+	color:#666;
+	}
+/*==============================================================================*/
+.subhead__block1,
+.subhead__block3,
+.scarehead05__sptitle{
+	background-color:#539ADB;
+	}
+.subhead__block2{
+	background-color:#e5f0fa;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+	.information{
+		margin-bottom:1.25rem;/*20*/
+		}
+	.items--shop .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--shop .item:nth-child(1),
+	.items--shop .item:nth-child(4),
+	.items--shop .item:nth-child(5),
+	.items--shop .item:nth-child(8),
+	.items--shop .item:nth-child(9){
+	    background-color:#e5f0fa;
+		}
+	.headline--01 {
+	  background-position: 75% 75%;
+	  }
+    }
+@media (max-width: 768px){
+	.information dt{
+		background:#E0EDF3;
+		padding-top:0.3125rem;/*10*/
+		padding-bottom:0.3125rem;/*10*/
+		padding-left:0.625rem;/*10*/
+		}
+	.items--shop .item:nth-child(odd){
+	    background-color: #e5f0fa;
+		}
+	.items--shop .item:nth-child(4),
+	.items--shop .item:nth-child(8){
+	    background-color:#fff;
+		}
+    }
+@media (max-width: 640px){
+	.items--shop .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--shop .item:nth-child(1),
+	.items--shop .item:nth-child(4),
+	.items--shop .item:nth-child(5),
+	.items--shop .item:nth-child(8),
+	.items--shop .item:nth-child(9){
+	    background-color:#e5f0fa;
+		}
+    }
+@media (max-width: 543px){
+    }
+
+
+
+
+/*================
+pagename
+=================*/
+.pageonly-type .pagename{
+	width:100%;
+	display:table;
+	margin-bottom:2.125rem;/*45*/
+	}
+.pageonly-type .pagename h1.plate{
+	width:33.33333333%;
+	display:table-cell;
+	vertical-align:middle;
+	background:#539ADB;
+	padding:1.875rem;/*30*/
+	height:14.375rem;/*230px*/
+	color:#fff;
+	font-size:1.75rem;/*28*/
+	font-weight:500;
+	}
+.pageonly-type .pagename .lead{
+	display:table-cell;
+	width:66.6666667%;
+	vertical-align:middle;
+	padding:2.5rem;/*40*/
+	background:#e5f0fa;
+	}
+.pageonly-type .pagename .lead p{
+	font-size:0.9375rem;/*15*/
+	margin-bottom:0;
+	}
+/*================
+information
+=================*/
+.pageonly-type .infoarea{
+	width:100%;
+	max-width:50.625rem;/*810px*/
+	margin:0 auto 3.125rem;/*50*/
+	text-align:left;
+	}
+.pageonly-type .infoarea p{
+	font-size:1.125rem;/*18*/
+	font-family:"times new roman","ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	color:#999;
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .infoarea dl{
+	width:100%;
+	border-bottom:solid 1px #eee;
+	display:table;
+	font-size:0.875rem;/*14*/
+	text-align:left;
+	}
+.pageonly-type .infoarea dl dt,
+.pageonly-type .infoarea dl dd{
+	display:table-cell;
+	padding:1.25rem 0;/*20*/
+	}
+.pageonly-type .infoarea dl dt{
+	width:19.75308641%;/*160*/
+	}
+.pageonly-type .infoarea dl dd{
+	width:80.24691358%;/*650*/
+	}
+.pageonly-type .infoarea ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+/*================
+message2
+=================*/
+.pageonly-type .message2{
+	width:100%;
+	text-align:right;
+	font-size:0.6875rem;/*11*/
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .message2 span{
+	display:inline-block;
+	}
+/*================
+rr-summary
+=================*/
+.pageonly-type .rr-summary{
+	width:100%;
+	}
+.pageonly-type .rr-summary .bg:nth-child(even){
+	background:#e5f0fa;
+	}
+.pageonly-type .rr-summary h2{
+	font-size:1.125rem;/*18px*/
+	padding:0.625rem 1.5625rem;/*10px,25px*/
+	background:#98C2E9;
+	color:#fff;
+	text-align:center;
+	margin:0;
+	}
+.pageonly-type .rr-summary .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:1.25rem;/*20*/
+	text-align:left;
+	}
+.pageonly-type .rr-summary .box-wrap .upper{
+	margin-bottom:1.875rem;/*20*/
+	}
+.pageonly-type .rr-summary .box-wrap .info{
+	width:58.2%;
+	float:left;
+	padding-right:4.375rem;/*70px*/
+	font-size:0.875rem;/*14px*/
+	}
+.pageonly-type .rr-summary .box-wrap .photo{
+	width:41.8%;
+	float:left;
+	}
+.pageonly-type .rr-summary .box-wrap .photo img{
+	width:100%;
+	max-width:100%;
+	}
+.pageonly-type .rr-summary .box-wrap .info h3{
+	font-size:1.5rem;/*24px*/
+	color:#539ADB;
+	text-align:left;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .rr-summary .box-wrap .info h3.ico{
+	background:url(../../img/shop/ico.png) no-repeat 0 9px;
+	padding-left:1.45rem;/*23.2px*/
+	background-size:18px auto;
+	-moz-background-size:18px auto;
+	-webkit-background-size:18px auto;
+	-ms-background-size:18px auto;
+	-o-background-size:18px auto;
+	}
+.pageonly-type .rr-summary .box-wrap .info p{
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .rr-summary .box-wrap .info ul{
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14px*/
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .rr-summary .box-wrap .info ul li{
+	background:url(../../img/shop/ico2.png) no-repeat 0 6px;
+	padding-left:1.25rem;/*20px*/
+	margin-bottom:0.625rem;/*10*/
+	background-size:10px auto;
+	-moz-background-size:10px auto;
+	-webkit-background-size:10px auto;
+	-ms-background-size:10px auto;
+	-o-background-size:10px auto;
+	}
+.pageonly-type .rr-summary .box-wrap a,
+.pageonly-type .rr-summary .box-wrap a:link,
+.pageonly-type .rr-summary .box-wrap a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.pageonly-type .rr-summary .box-wrap a:hover{
+	text-decoration:none;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:45%;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:55%;
+		}
+    }
+@media (max-width: 991px){
+	.pageonly-type .rr-summary .box-wrap .info h3{
+		margin-bottom:1.5625rem;/*25*/
+		}
+    }
+@media (max-width: 850px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:100%;
+		float:none;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:100%;
+		float:none;
+		text-align:center;
+		}
+	}
+@media (max-width: 768px){
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:1.25rem;/*20*/
+		padding-top:1.25rem;/*20*/
+		}
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:58.2%;
+		float:left;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:41.8%;
+		float:left;
+		}
+	.pageonly-type .infoarea{
+		padding: 0 10%;
+		margin:0 auto 1.25rem;/*20*/
+		}
+	.pageonly-type .infoarea dl{
+		border-bottom:none;
+		}
+	.pageonly-type .infoarea dl dt{
+		width:100%;
+		display:block;
+		background: #e5f0fa;
+		padding-top: 0.3125rem;
+		padding-bottom: 0.3125rem;
+		padding-left: 0.625rem;
+		}
+	.pageonly-type .infoarea dl dd{
+		width:100%;
+		display:block;
+		}
+    }
+@media (max-width: 543px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:100%;
+		float:none;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:100%;
+		float:none;
+		text-align:center;
+		}
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:0.625rem;/*10*/
+		padding-right:0.625rem;/*10*/
+		}
+    }

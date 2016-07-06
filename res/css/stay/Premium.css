@@ -1,0 +1,124 @@
+/* CSS Information ===============================
+File name:stay/premium.css
+Date: 2015.12
+Contents: *premium
+================================================ */
+/*================
+premium
+=================*/
+.premium{
+	width:100%;/*1050px*/
+	max-width:59.375rem;/*950*/
+	padding-top:1.875rem;/*30px*/
+	margin:0 auto 5rem;/*80*/
+	}
+.premium img{
+	width:100%;
+	max-width:100%;
+	}
+.premium h1{
+	font-size:1.8125rem;/*29px*/
+	color:#ab8c0e;
+	font-weight:normal;
+	margin-bottom:3.125rem;/*50px*/
+	}
+.premium h2{
+	width:100%;
+	padding:0.625rem 1.25rem;/*10px,20px*/
+	background:#bda957;
+	color:#fff;
+	font-size:1.125rem;/*18px*/
+	line-height:1.4em;
+	}
+.premium .list{
+	width:100%;/*950*/
+	font-size:0.875rem;/*14*/
+	margin-bottom:3.125rem;/*50*/
+	}
+.premium .list tr{
+	width:100%;
+	border-bottom:solid 1px #d7cb9a;
+	text-align:left;
+	}
+.premium .list tr:first-child{
+	border-top:solid 1px #d7cb9a;
+	background:#F2EEDD;
+	}
+.premium .list th,
+.premium .list td{
+	vertical-align:middle;
+	padding:0.625rem 1.25rem;/*10px,20px*/
+	border-left:solid 1px #d7cb9a;
+	font-weight:normal;
+	}
+.premium .list th:first-child,
+.premium .list td:first-child{
+	border-left:none;
+	}
+.premium ul,
+.premium ol{
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14*/
+	}
+.premium .room{
+	width:100%;
+	display:table;
+	}
+.premium .room div:first-child{
+	display:table-cell;
+	vertical-align:top;
+	margin-bottom:1.875rem;
+	width:59.36842105%;
+	}
+.premium .room div:first-child + div{
+	padding-left:1.875rem;/*30*/
+	display:table-cell;
+	vertical-align:top;
+	width:40.631579%;
+	}
+.premium .room div:first-child + div ul li span{
+	display:inline-block;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+	.premium{
+		padding-top:1.875rem;/*30px*/
+		margin:0 auto 1.875rem;/*30*/
+		}
+	.premium h1{
+		margin-bottom:1.5625rem;/*25px*/
+		}
+	.premium .room div:first-child,
+	.premium .room div:first-child + div{
+		padding-left:0;
+		display:block;
+		width:100%;
+		}
+	.premium .room div:first-child + div ul li{
+		width:50%;
+		float:left;
+		}
+    }
+@media (max-width: 768px){
+	.premium{
+		padding-left:0.625rem;/*10*/
+		padding-right:0.625rem;/*10*/
+		}
+    }
+@media (max-width: 640px){
+	.premium .room div:first-child + div ul li{
+		width:100%;
+		float:none;
+		}
+	.premium .list{
+		margin-bottom:1.5625rem;/*50*/
+		}
+    }
+@media (max-width: 543px){
+    }
+

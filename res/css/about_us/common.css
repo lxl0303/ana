@@ -1,0 +1,109 @@
+/* CSS Information ===============================
+File name:about_us/common.css
+Date: 2015.12
+Contents: *about_us all
+================================================ */
+/*================
+common
+=================*/
+.page-navi{
+	width:100%;/*1050px*/
+	border-bottom:solid 3px #f5f5f5;
+	padding-bottom:2.8125rem;/*45px*/
+	padding-left:3.125rem;/*50px*/
+	}
+.page-navi li{
+	margin-bottom:0.625rem;/*10px*/
+	}
+.page-navi li a{
+	font-weight:bold;
+	color:#645f5c;
+	font-size:0.9rem;/*14.4*/
+	}
+.page-navi a:hover{
+	text-decoration:underline;
+	}
+.page-navi li a.ico{
+	background:url(../../img/about_us/navi_ico.jpg) no-repeat left center;
+	padding-left:20px;
+	padding-right:0;
+	}
+.color{
+	color:#0ba0c3;
+	}
+.page-wrap{
+	width:100%;
+	max-width:59.375rem;/*950px*/
+	margin:0 auto 0;
+	text-align:left;
+	padding:0 0.625rem;/*10px*/
+	}
+h1{
+	font-size:1.625rem;/*26px*/
+	font-weight:normal;
+	}
+ul{
+	list-style-type:none;
+	padding-left:0;
+	}
+p{
+	font-size:0.875rem;/*14px*/
+	line-height:1.7rem;
+	}
+p span{
+	display:inline-block;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.page-navi{
+		padding-left:0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 991px){
+    }
+@media (max-width: 768px){
+	.page-navi{
+		padding-bottom:1.5625rem;/*25px*/
+		}
+    }
+@media (max-width: 543px){
+	.page-navi a{
+		font-size: 13px;
+	}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

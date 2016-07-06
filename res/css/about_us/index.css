@@ -1,0 +1,57 @@
+/* CSS Information ===============================
+File name:about_us/index.css
+Date: 2015.12
+Contents: *index(pageOnlyStyle)
+================================================ */
+/*================
+index
+=================*/
+h2{
+	font-size:1rem;/*16px*/
+	}
+.summary{
+	width:100%;
+	}
+.summary dl{
+	border-bottom:solid 1px #c8eaf2;
+	padding:0.625rem 1.25rem;/*10px,20px*/
+	font-size:0.875rem;/*14px*/
+	}
+.summary dl:first-child{
+	border-top:solid 1px #c8eaf2;
+	}
+.summary dl dd{
+	margin-bottom:0;
+	}
+.summary dl dt span{
+	display:inline-block;
+	}
+.summary ul{
+	line-height:1.9em;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+    }
+@media (max-width: 768px){
+    }
+@media (max-width: 543px){
+	.summary dl{
+		padding:0.625rem 0;/*0,10px*/
+		border-bottom:none;
+		}
+	.summary dl:first-child{
+		border-top:none;
+		}
+	.summary dl dt{
+		color:#fff;
+		background:#75cbdf;
+		padding:0.3125rem;/*5px*/
+		margin-bottom:0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 480px){
+    }

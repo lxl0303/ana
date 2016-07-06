@@ -1,0 +1,158 @@
+/* CSS Information ===============================
+File name:banquet/index.css
+Date: 2015.12
+Contents: *banquet
+================================================ */
+/*================
+banquet
+=================*/
+.page-wrap{
+	width:100%;/*1050px*/
+	margin:0 auto 3.75rem;/*60*/
+	text-align:left;
+	}
+h1{
+	width:100%;
+	font-size:1.375rem;/*22*/
+	font-weight:500;
+	text-align:center;
+	margin-bottom:1.5rem;/*24px*/
+	}
+h1 img{
+	width:100%;
+	max-width:13.6875rem;/*219px*/
+	}
+p.lead{
+	width:100%;
+	text-align:center;
+	line-height:2rem;
+	font-size:1rem;/*16*/
+	padding:0 0.625rem;
+	margin-bottom:2.5rem;
+	}
+p.lead span{
+	display:block;
+	margin-bottom:0.625rem;/*10*/
+	}
+.headline--01 {
+    background: url("../../img/banquet/item1_bk.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+	}
+.headline--02 {
+    background: url("../../img/banquet/item2_bk.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+	}
+.hallmap{
+	width:80%;/*780px*/
+	display:table;
+	margin:0 auto 2.5rem;/*40*/
+	}
+.hallmap div{
+	display:table-cell;
+	width:50%;
+	text-align:center;
+	}
+.hallmap div:first-child{
+	padding-right:2.5rem;/*40*/
+	}
+.hallmap div:first-child + div{
+	padding-left:2.5rem;/*40*/
+	}
+.hallmap div img.size1{
+	width:100%;
+	max-width:21.25rem;/*340*/
+	}
+.hallmap div img.size2{
+	width:100%;
+	max-width:19.375rem;/*310*/
+	}
+.hallmap div span{
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:0.625rem;/*10px*/
+	width:100%;
+	display:block;
+	}
+p{
+	font-size:1rem;/*16*/
+	text-align:center;
+	}
+.ico,
+p.link{
+	margin-bottom:2.5rem;
+	font-size:0.875rem;/*14*/
+	text-align:center;
+	width:100%;
+	}
+p.link{
+	margin-bottom:10px;
+	}
+.ico a{
+	background:url(../../img/banquet/icon_pdf.png) no-repeat right center;
+	padding-right:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-size:20px auto;
+	-moz-background-size:20px auto;
+	-webkit-background-size:20px auto;
+	-o-background-size:20px auto;
+	-ms-background-size:20px auto;
+	}
+.ico a,
+.ico a:link,
+.ico a:hover,
+p.link a,
+p.link a:link,
+p.link a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.ico a:hover,
+p.link a:hover{
+	text-decoration:none;
+	}
+
+/*----------------------
+MAIN VISUAL TEXT BK-COLOR
+-----------------------*/
+.scarehead05__sptitle{
+	background-color:#0ba0c3;
+	}
+
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	p.lead{
+		text-align:left;
+		}
+	p.lead span{
+		display:inline;
+		}
+    }
+@media (max-width: 991px){
+	h1{
+		margin-bottom:1.5625rem;/*25px*/
+		}
+    }
+@media (max-width: 768px){
+    }
+@media (max-width: 640px){
+	.hallmap div{
+		display:block;
+		width:100%;
+		text-align:center;
+		margin-bottom:1.25rem;/*20*/
+		}
+	.hallmap div:first-child{
+		padding-right:0;
+		}
+	.hallmap div:first-child + div{
+		padding-left:0;
+		}
+    }
+@media (max-width: 543px){
+    }
+

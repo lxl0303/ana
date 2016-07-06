@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+  font-family: "Helvetica Neue",Helvetica, "Microsoft YaHei", "微软雅黑",'SimSun', tahoma,arial,"Hiragino Sans GB", 宋体, sans-serif !important; }
+
+.ff-mincho {
+  font-family: "Helvetica Neue",Helvetica, "Microsoft YaHei", "微软雅黑",'SimSun', tahoma,arial,"Hiragino Sans GB", 宋体, sans-serif !important; }
+
+@media (min-width: 769px) {
+  .gnav__stay {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -245px -82px;
+    width: 240px;
+    height: 36px; }
+  .gnav__activity {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -245px -41px;
+    width: 240px;
+    height: 36px; }
+  .gnav__restaurant {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px -110px;
+    width: 240px;
+    height: 36px; }
+  .gnav__relaxation {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px -151px;
+    width: 240px;
+    height: 36px; }
+  .gnav__shop {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px -192px;
+    width: 240px;
+    height: 36px; }
+  .gnav__banquet {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -245px 0px;
+    width: 240px;
+    height: 36px; }
+  .gnav__wedding {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px 0px;
+    width: 240px;
+    height: 59px; }
+  .gnav__reservation {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px -233px;
+    width: 166px;
+    height: 40px; }
+  .gnav__inquiry {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: 0px -64px;
+    width: 240px;
+    height: 41px; }
+  .gnav__faq {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -245px -123px;
+    width: 240px;
+    height: 33px; }
+  .gnav__accessmap {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -245px -161px;
+    width: 240px;
+    height: 33px; }
+  .gnav__lang-left {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -171px -233px;
+    width: 124px;
+    height: 33px; }
+  .gnav__lang-right {
+    background-image: url(../../../img/common/sprites/cn.png);
+    background-position: -300px -233px;
+    width: 116px;
+    height: 33px; } }
+
+@media (max-width: 768px) {
+  .gnav__reserve {
+    padding: 15px; }
+    .gnav__reserve li {
+      width: 100%;
+      padding-top: 0;
+      background-color: #00A8EF; }
+    .gnav__reserve a.open {
+      background-color: #bda957;
+      padding: 20px 5px; }
+  .gnav__informations, .gnav__tel {
+    background-color: #0ba0c3; }
+  .gnav__menu {
+    margin-top: 63px;
+    background-color: #0ba0c3; }
+  .gnav__items {
+    background-color: #018dae; }
+  a.gnav__lang-right {
+    background-image: url(../../../img/common/gnav-sp/glnav_japanese_sp.png) !important; } }
+
+.lang_pc_btn .lang_right {
+  background-image: url(../../../img/top/btn_movie_japanese.png) !important; }

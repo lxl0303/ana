@@ -1,0 +1,115 @@
+/* CSS Information ===============================
+File name:recruit/index.css
+Date: 2015.12
+Contents: *index(pageOnlyStyle)
+================================================ */
+/*================
+recruit
+=================*/
+.page-wrap{
+	width:100%;
+	max-width:59.375rem;/*950px*/
+	margin:0 auto 0;
+	text-align:left;
+	padding:3.75rem 0.625rem 0;/*60px,10px*/
+	}
+h1{
+	font-size:1.625rem;/*26px*/
+	font-weight:normal;
+	}
+h2{
+	font-size:1rem;/*16px*/
+	}
+ul{
+	list-style-type:none;
+	padding-left:0;
+	}
+p{
+	font-size:0.875rem;/*14px*/
+	line-height:1.7rem;
+	}
+p span{
+	display:inline-block;
+	}
+.color{
+	color:#0ba0c3;
+	}
+.summary{
+	width:100%;
+	}
+.summary dl{
+	border-bottom:solid 1px #C8EAF2;
+	font-size:0.875rem;/*14px*/
+	width:100%;
+	display: table;
+	margin:0;
+	}
+.summary dl:first-child{
+	border-top:solid 1px #C8EAF2;
+	}
+.summary dl dt,
+.summary dl dd{
+	display: table-cell;
+	padding:0.625rem 1.25rem;/*10px,20px*/
+	}
+.summary dl dt{
+	border-right:solid 1px #C8EAF2;
+	background:#F3FAFC;
+	width:13.68421052%;/*130px*/
+	}
+.summary dl dd{
+	margin-bottom:0;
+	width:86.3157895%;/*800px*/
+	}
+.summary dl dt span{
+	display:inline-block;
+	}
+.summary ul{
+	line-height:1.9em;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.summary dl dt{
+		width:25%;
+		}
+	.summary dl dd{
+		width:75%;
+		}
+    }
+@media (max-width: 991px){
+    }
+@media (max-width: 768px){
+	.page-wrap{
+		padding:2.1875rem 0.625rem 0;/*35px,10px*/
+		}
+    }
+@media (max-width: 543px){
+	.summary{
+		border-bottom:solid 1px #999;
+		}
+	.summary dl{
+		border-bottom:none;
+		}
+	.summary dl:first-child{
+		border-top:none;
+		}
+	.summary dl dt,
+	.summary dl dd{
+		display:block;
+		width:100%;
+		padding:0;
+		}
+	.summary dl dt{
+		color:#fff;
+		background:#75cbdf;
+		padding:0.3125rem;/*5px*/
+		margin-bottom:0.625rem;/*10px*/
+		}
+	.summary dl dd{
+		margin-bottom:0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 480px){
+    }

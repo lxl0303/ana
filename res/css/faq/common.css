@@ -1,0 +1,181 @@
+/* CSS Information ===============================
+File name:faq/common.css
+Date: 2015.12
+Contents: *faq all
+================================================ */
+/*================
+common
+=================*/
+.faq a,
+.faq a:link,
+.faq a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.faq a:hover{
+	text-decoration:none;
+	}
+.lead{
+	text-align:center;
+	}
+.page-navi{
+	width:100%;/*1050px*/
+	border-bottom:solid 3px #f5f5f5;
+	padding-bottom:2.8125rem;/*45px*/
+	padding-left:3.125rem;/*50px*/
+	}
+.page-navi li{
+	margin-bottom:0.625rem;/*10px*/
+	}
+.page-navi li a{
+	font-weight:bold;
+	color:#666;
+	font-size:0.9rem;/*14.4*/
+	}
+.page-navi a:hover{
+	text-decoration:underline;
+	}
+.page-navi li a.ico{
+	background:url(../../img/about_us/navi_ico.jpg) no-repeat left center;
+	padding-left:20px;
+	}
+.color{
+	color:#0ba0c3;
+	}
+.marker{
+	color:#FE773C;
+	}
+.page-wrap{
+	width:100%;
+	max-width:59.375rem;/*950px*/
+	margin:0 auto 0;
+	text-align:left;
+	padding:0 0.625rem;/*10px*/
+	}
+h1{
+	font-size:1.625rem;/*26px*/
+	font-weight:normal;
+	}
+h2{
+	width:100%;
+	font-size:1.125rem;/*18px*/
+	color:#fff;
+	padding-top:0.9375rem;/*15px*/
+	padding-right:0.9375rem;/*15px*/
+	padding-bottom:0.9375rem;/*15px*/
+	padding-left:4.375rem;/*70px*/
+	background-color:#75CBDF;
+	background-image:url(../../img/faq/q.png);
+	background-repeat:no-repeat;
+	background-position:1.25rem 0.9375rem;
+	margin-bottom:1.5625rem;/*25px*/
+	
+	background-size:32px auto;
+	-moz-background-size:32px auto;
+	-webkit-background-size:32px auto;
+	-o-background-size:32px auto;
+	-ms-background-size:32px auto;
+	}
+ul,
+ol{
+	list-style-type:none;
+	padding-left:0;
+	}
+p{
+	font-size:0.875rem;/*14px*/
+	line-height:1.6rem;
+	}
+p span{
+	display:inline-block;
+	}
+.answer{
+	width:100%;
+	text-align:left;
+	padding-left:4.375rem;/*70px*/
+	padding-bottom:1.875rem;/*30*/
+	background:url(../../img/faq/a.png) no-repeat 1.0625rem 0.3125rem;
+	margin-bottom:1.875rem;/*30px*/
+	
+	background-size:34px auto;
+	-moz-background-size:34px auto;
+	-webkit-background-size:34px auto;
+	-o-background-size:34px auto;
+	-ms-background-size:34px auto;
+	}
+.answer ul,
+.answer ol{
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14px*/
+	line-height:1.6rem;
+	}
+.answer .more a{
+	padding:0.3125rem 0.9375rem;/*5px,15px*/
+	background:#D5EFF5;
+	display:inline-block;
+	font-size:0.875rem;/*14px*/
+	text-align:center;
+	color:#0ba0c3;
+	}
+.answer .more a:link,
+.answer .more a:hover{
+	text-decoration:none;
+	}
+.answer img{
+	max-width:100%;
+	height:auto;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.page-navi{
+		padding-left:0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 991px){
+	.lead{
+		text-align:left;
+		padding-left:0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 768px){
+	.page-navi{
+		padding-bottom:1.5625rem;/*25px*/
+		}
+    }
+@media (max-width: 543px){
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

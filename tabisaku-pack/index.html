@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ANAのダイナミックパッケージ　旅作～フライト・ホテルの組み合わせは自由。オリジナルな旅作り！～</title>
+<meta name="copyright" content="Copyright (C) ANA INTERCONTINENTAL Manza Beach Resort.">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="common/css/popupCalendar_5.css" type="text/css" media="screen,tv">
+<link rel="stylesheet" href="cmn/css/import_sub.css" />
+<meta name="description" content="国内旅行、海外旅行などの旅行情報はANA SKY WEB TOUR。海外ツアー・国内ツアー・航空券・海外航空券・ホテル・レンタカーなど情報満載のANAの旅行サイト。"> 
+<meta name="keywords" content="旅行,国内旅行,旅行情報,国内ツアー,旅行会社,マイル,ANA"> 
+<meta http-equiv="Content-Language" content="ja"> 
+<meta http-equiv="content-style-type" content="text/css"> 
+<meta http-equiv="content-script-type" content="text/javascript"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+
+
+<!--IE対策-->
+<script type="text/javascript" src="../cmn/ie/respond.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../cmn/ie/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="../cmn/ie/html5shiv-printshiv.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="cmn/css/ie.css" media="all" />
+<![endif]-->
+<script language=javascript>
+<!--
+function CloseWin(){
+window.close();
+}
+//-->
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70689547-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head> 
+<body id="manzatop">
+<div id="wrapper"><header id="subheader"><h1><img src="../cmn/sub/logo.png" alt="ANAインターコンチネンタル万座ビーチリゾート"></h1></header><section id="subcontents"><hgroup><h1><img src="cmn/img/logo.png" alt="旅作" width="35px" height="30px" style="margin-right:10px;"><img src="cmn/img/h1.png" alt="ANA航空券付き宿泊プラン" width="212px" height="30px"><img src="cmn/img/h2.png" alt="" width="127px" height="30px"></h1><h2>ANAのダイナミックパッケージ　旅作<span>（ANAインターコンチネンタル万座ビーチリゾート）</span></h2></hgroup><!---->
+<div class="tabibox"><div class="leftbox"><div><img src="cmn/img/main.jpg"  alt="" class="tabiimg" /></div><div class="point"><a href="http://www.ana.co.jp/domtour/dp/info_point/" target="_blank"><img src="common/image/bnr-tabisaku2.jpg" alt="旅作のポイント" class="tabiimg"></a></div></div><div class="rightbox">
+<!--▼検索モジュール--> 
+<div id="search"><h3>ANAのダイナミックパッケージ　検索・空席照会／予約</h3><p style="text-align:right;" class="point"><a href="https://www.ana.co.jp/domtour/reservation/" target="_blank"><img src="common/image/search_info01.gif" alt="ご予約の前に" border="0"></a></p>
+
+
+<!--form name="atourForm"--> 
+<form name="atourForm" action="https://rps.atour.ana.co.jp/adam/internet/DPSearchAction.do" method="post" onSubmit="freeSubmit(); return false;"> 
+<table class="formtable"> 
+<tbody><tr> 
+<!--月はjsファイルより読み込み--> 
+<th class="search_listname">往路出発日</th> 
+<td><select name="autoDATE_month" id="Month_free" class="sel_month"> 
+<option value=""></option> 
+</select> 
+ <!--日はjsファイルより読み込み--> 
+<select name="autoDATE_day" id="Day_free" class="sel_day"> 
+<option value=""></option> 
+</select> 
+<div style="display: inline;" class="popupCalendar" id="calImg5"><img height="19" border="0" width="19" align="absmiddle" style="cursor: pointer;" class="cal" alt="カレンダー" src="common/image/icon_calender.gif"></div><div id="calid5" style="z-index: 9999; position: absolute; display: none;left:50px;"></div> 
+</td> 
+</tr> 
+ 
+<!--往路--> <tr> 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listname">出発空港</th> 
+<td><select name="autoAIRgo" id="DepApo_free" class="sel_wide"> 
+<option value="" selected></option> 
+</select></td> 
+</tr> 
+<tr> 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listname">到着空港</th> 
+<td><select name="autoAIRreturn" id="ArrApo_free" class="sel_wide"> 
+<option value="" selected>選択してください</option> 
+</select></td> 
+</tr> 
+ 
+<!--復路--> 
+<tr> 
+<!--月はjsファイルより読み込み--> 
+<th class="search_listname">復路出発日</th> 
+<td><select id="RetMonth_free" name="autoDATE_month2" class="sel_month"> 
+<option value=""></option> 
+</select> 
+<!--日はjsファイルより読み込み--> 
+<select id="RetDay_free" name="autoDATE_day2" class="sel_day"> 
+<option value=""></option> 
+</select> 
+<div style="display: inline;" class="popupCalendar" id="calImg52"><img height="19" border="0" width="19" align="absmiddle" style="cursor: pointer;" class="cal" alt="カレンダー" src="common/image/icon_calender.gif"></div><div id="calid52" style="z-index: 9999; position: absolute; display: none;left:50px;"></div> 
+</td> 
+</tr> <tr> 
+ 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listname">出発空港</th> 
+<td><select name="autoAIRreturnDept" id="RetDepApo_free" class="sel_wide"> 
+<option value="" selected>選択してください</option> 
+</select></td> 
+</tr> 
+<tr> 
+<!--復路到着空港　自動生成--> 
+<th class="search_listname">到着空港</th> 
+<td><span id="RetArrApo_free">東京（羽田）</span></td> 
+</tr> <tr> 
+<!--選択項目はtra_dom_db.jsより到着空港からの紐付けで読み込み--> 
+<th class="search_listnameL">宿泊地</th> 
+<td><p>ANAインターコンチネンタル万座ビーチリゾート</p>
+  <div class="areaselect"><select name="autoREGION" id="Region_free" class="sel_wide"> 
+<option value=""></option> 
+</select>
+<select name="autoAREA" id="Area_free" class="sel_wide"> 
+<option value=""></option> 
+</select>  </div>
+</td> 
+</tr> <tr> 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listname">宿泊日数</th> 
+<td><select name="autoSTAY" id="Stay_free" class="sel_small"> 
+<option value=""></option> 
+</select> 
+</td> 
+</tr> <tr> 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listname">参加人数</th> 
+<td><select name="autoNINZU" id="Members_free" class="sel_small"> 
+<option value=""></option> 
+</select> 
+ ※3歳以上</td> 
+</tr> <tr> 
+<!--選択項目はtra_dom_db.jsより読み込み--> 
+<th class="search_listnameL">1部屋あたりの利用人数</th> 
+<td> 
+<select name="autoNUMPFROM" id="MembersFrom_free" class="sel_small"> 
+<option value=""></option> 
+</select> 
+-
+<select name="autoNUMPTO" id="MembersTo_free" class="sel_small"> 
+<option value=""></option> 
+</select> 
+ 
+<input type="hidden" name="autoDATE" id="Date_free" value=""> 
+<input type="hidden" name="autoAIRreturnDate" id="RetDate_free" value=""> 
+<input type="hidden" name="autoMAJMAT" id="Mat_free" value=""> 
+<input type="hidden" name="quickstart" id="Quickstart_free" value="1"> 
+<input type="hidden" name="refid" id="Refid_free" value=""></td> 
+</tr>
+</tbody></table><div style="padding:10px" align="center"><input name="image" type="image" class="searchBT" id="BtnDomTourFr" value="検索" src="common/image/search_BT.gif" alt="検索"></div> 
+</form> 
+
+ 
+</div> 
+<!--▲検索モジュールここまで--> 
+ 
+
+ 
+<div class="liarea"> 
+<ul class="txtlink">
+<li><a href="https://www.ana.co.jp/domtour/reservation/" target="_blank">『旅作』をご利用になる前に</a></li> 
+<li><a href="https://www.ana.co.jp/travel/info/kokunai_pay.html" target="_blank">お支払い方法</a></li> 
+<li><a href="https://www.ana.co.jp/domtour/faq/" target="_blank">FAQ（よくあるご質問）</a></li> 
+<li><a href="https://www.ana.co.jp/travel/form/dom_dp/toiawase_2.html" target="_blank">お問い合わせ</a></li> 
+</ul> 
+</div> 
+  </div> </div>
+ <!----><div class="inptarea"><p class="pagecatch">旅行企画・実施　ANAセールス株式会社<br>
+   <span>
+  東京都中央区日本橋2-14-1 フロントプレイス日本橋 ／ 観光庁長官登録旅行業第1656号 (社)日本旅行業協会正会員</span></p><!--form start--></div><!---->
+<!--form end--></section>
+<footer id="subfooter"><div id="closebtm"><a href="javascript:CloseWin()"><img src="../cmn/sub/btn_close.gif" alt="ウィンドウを閉じる" name="btm_close" border="0" id="btm_close"></a></div><p class="copyright">Copyright&copy;
+		<script type="text/javascript">
+myDate = new Date();myYear = myDate.getFullYear();document.write(myYear);
+</script>
+		ANA INTERCONTINENTAL Manza Beach Resort. All rights reserved.</p></footer>
+</div>
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/popupCalendar_property_dom.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/popupCalendar_ASW_1_3.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/popupCalendar_TRADOM_FREE_1_3.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/module.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/tra_dom_db.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/tra_dom_url.js"></script> 
+<script type="text/javascript" charset="utf-8" src="common/js/module2015/tra_dom_common.js"></script>
+<!-- counter start-->
+<script language="javascript"  type="text/javascript">
+<!--
+document.write("<img src='http://www.anaintercontinental-manza.jp/counter/count.php?page=tabisaku-pack&referrer=");
+document.write(document.referrer+"' width=0 height=0 alt=''>");
+//-->
+</script>
+<noscript>
+
+<img src="../counter/count-50642.php" width="1" height="1" alt="">
+</noscript>
+<!-- counter end-->
+</body>
+</html> 
+<!-- Localized -->

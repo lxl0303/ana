@@ -1,0 +1,422 @@
+/* CSS Information ===============================
+File name:restaurant/common.css
+Date: 2015.12
+Contents: *restaurant
+================================================ */
+/*================
+restaurant
+=================*/
+html{
+	width:100%;
+	height:100%;
+	}
+.pageonly-type .page-wrap{
+	width:100%;
+	max-width:1050px;
+	text-align:left;
+	margin:3.125rem auto 1.875rem;/*50,20px*/
+	}
+#recommends-carousel span{
+	color:#E69F6C;
+	}
+#recommends-carousel a{
+	display:block;
+	width:100%;
+	color:#666;
+	}
+#recommends-carousel a:hover{
+	background:#FBF1E9;
+	}
+/*================
+box-wrap
+=================*/
+.pageonly-type .page-wrap p.title{
+	text-align:center;
+	line-height:2rem;
+	margin-bottom:2.5rem;/*40px*/
+	}
+.pageonly-type .page-wrap p.title span{
+	display:block;
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:1.25rem;/*20*/
+	text-align:left;
+	}
+/*================
+information
+=================*/
+.pageonly-type .infoarea{
+	width:100%;
+	max-width:50.625rem;/*810px*/
+	margin:0 auto 3.125rem;/*50*/
+	text-align:left;
+	}
+.pageonly-type .infoarea p{
+	font-size:1.125rem;/*18*/
+	font-family:"times new roman","ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	color:#999;
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .infoarea dl{
+	width:100%;
+	border-bottom:solid 1px #eee;
+	display:table;
+	font-size:0.875rem;/*14*/
+	text-align:left;
+	}
+.pageonly-type .infoarea dl dt,
+.pageonly-type .infoarea dl dd{
+	display:table-cell;
+	padding:1.25rem 0;/*20*/
+	}
+.pageonly-type .infoarea dl dt{
+	width:19.75308641%;/*160*/
+	}
+.pageonly-type .infoarea dl dd{
+	width:80.24691358%;/*650*/
+	}
+.pageonly-type .infoarea ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+/*================
+message1
+=================*/
+.pageonly-type .message1{
+	width:100%;
+	text-align:center;
+	font-size:0.8125rem;/*13*/
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type .message1 span{
+	display:block;
+	}
+.pageonly-type .message1 br{
+	display:none;
+	}
+.pageonly-type .message1 br:first-child + br{
+	display:block;
+	}
+/*================
+message2
+=================*/
+.pageonly-type .message2{
+	width:100%;
+	text-align:right;
+	font-size:0.6875rem;/*11*/
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type .message2 span{
+	display:inline-block;
+	}
+/*================
+rr-summary
+=================*/
+.pageonly-type .rr-summary{
+	width:100%;
+	}
+.pageonly-type .rr-summary:nth-child(even) .bg{
+	background:#fbf1e9;
+	}
+.pageonly-type .rr-summary h2{
+	font-size:1.125rem;/*18px*/
+	padding:0.625rem 1.5625rem;/*10px,25px*/
+	background:#E69F6C;
+	color:#fff;
+	text-align:center;
+	margin:0;
+	}
+.pageonly-type .rr-summary .box-wrap{
+	padding-left:3.125rem;/*50*/
+	padding-top:2.5rem;/*40*/
+	padding-bottom:2.5rem;/*40*/
+	text-align:left;
+	}
+.pageonly-type .rr-summary .box-wrap .upper{
+	margin-bottom:1.875rem;/*20*/
+	}
+.pageonly-type .rr-summary .box-wrap .info{
+	width:58.2%;
+	float:left;
+	padding-right:4.375rem;/*70px*/
+	font-size:0.875rem;/*14px*/
+	}
+.pageonly-type .rr-summary .box-wrap .photo{
+	width:41.8%;
+	float:left;
+	}
+.pageonly-type .rr-summary .box-wrap .photo img{
+	width:100%;
+	max-width:100%;
+	}
+.pageonly-type .rr-summary .box-wrap .info h3{
+	font-size:1.5rem;/*24px*/
+	color:#E69F6C;
+	text-align:left;
+	margin-bottom:3.125rem;/*50*/
+	}
+.pageonly-type .rr-summary .box-wrap .info h3.ico{
+	background-image:url(../../img/restaurant/ico.png);
+	background-repeat:no-repeat;
+	background-position:0 9px;
+	padding-left:1.45rem;/*23.2px*/
+	background-size:18px auto;
+	-moz-background-size:18px auto;
+	-webkit-background-size:18px auto;
+	-ms-background-size:18px auto;
+	-o-background-size:18px auto;
+	}
+.pageonly-type .rr-summary .box-wrap .info ul{
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14px*/
+	margin-bottom:1.875rem;/*30*/
+	}
+.pageonly-type .rr-summary .box-wrap .info ul li{
+	background:url(../../img/restaurant/ico2.png) no-repeat 0 5px;
+	padding-left:1.25rem;/*20px*/
+	}
+.pageonly-type .rr-summary .box-wrap a,
+.pageonly-type .rr-summary .box-wrap a:link,
+.pageonly-type .rr-summary .box-wrap a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.pageonly-type .rr-summary .box-wrap a:hover{
+	text-decoration:none;
+	}
+.pageonly-type .rr-summary .intab{
+	width:100%;
+	max-width:59.375rem;/*950px*/
+	margin:0;
+	}
+.pageonly-type .rr-summary .intab p{
+	color:#E69F6C;
+	font-weight:bold;
+	margin-bottom:0.625rem;/*10px*/
+	}
+.pageonly-type .rr-summary .intab > div{
+	width:100%;
+	}
+.pageonly-type .rr-summary .intab > div dl{
+	width:100%;
+	border-bottom:solid 1px #F0CAAF;
+	font-size:0.875rem;/*14*/
+	display:table;
+	text-align:left;
+	}
+.pageonly-type .rr-summary .intab > div dl:first-child{
+	border-top:solid 1px #F0CAAF;
+	}
+.pageonly-type .rr-summary .intab > div dl dt,
+.pageonly-type .rr-summary .intab > div dl dd{
+	display:table-cell;
+	padding:0.625rem 0.9375rem;/*15,10*/
+	}
+.pageonly-type .rr-summary .intab > div dl dt{
+	background:#fae7d8;
+	width:15%;
+	border-right:solid 1px #F0CAAF;
+	}
+.pageonly-type .rr-summary .intab > div dl dd{
+	width:85%;
+	}
+
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:45%;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:55%;
+		}
+    }
+@media (max-width: 991px){
+	.pageonly-type .rr-summary .box-wrap .info h3{
+		margin-bottom:1.5625rem;/*25*/
+		}
+    }
+@media (max-width: 850px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:100%;
+		float:none;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:100%;
+		float:none;
+		text-align:center;
+		}
+	}
+@media (max-width: 768px){
+	.pageonly-type .page-wrap{
+		padding:0 0.625rem;
+		}
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:1.25rem;/*20*/
+		padding-top:1.25rem;/*20*/
+		}
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:58.2%;
+		float:left;
+		padding-right:1.25rem;/*20px*/
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:41.8%;
+		float:left;
+		}
+	.pageonly-type .infoarea{
+		padding: 0 10%;
+		margin:0 auto 1.25rem;/*20*/
+		}
+	.pageonly-type .infoarea dl{
+		border-bottom:none;
+		}
+	.pageonly-type .infoarea dl dt{
+		width:100%;
+		display:block;
+		background: #fae7d8;
+		padding-top: 0.3125rem;
+		padding-bottom: 0.3125rem;
+		padding-left: 0.625rem;
+		}
+	.pageonly-type .infoarea dl dd{
+		width:100%;
+		display:block;
+		}
+    }
+@media (max-width: 640px){
+	.pageonly-type .message1 br{
+		display:block;
+		}
+	}
+@media (max-width: 600px){
+	.pageonly-type .page-wrap p.title{
+		margin-bottom:1.875rem;/*30px*/
+		padding:0 1.25rem;
+		text-align:left;
+		}
+	.pageonly-type .page-wrap p.title span{
+		display:inline;
+		}
+    }
+@media (max-width: 543px){
+	.pageonly-type .rr-summary .box-wrap .info{
+		width:100%;
+		float:none;
+		padding-right:0;
+		}
+	.pageonly-type .rr-summary .box-wrap .photo{
+		width:100%;
+		float:none;
+		text-align:center;
+		}
+	.pageonly-type .rr-summary .box-wrap{
+		padding-left:0.625rem;/*10*/
+		padding-right:0.625rem;/*10*/
+		}
+	.pageonly-type .message1{
+		text-align:left;
+		padding:0 0.625rem;/*10*/
+		}
+    }
+
+/*==============================================
+update(2015.12.18)/(▼page only style そのまま)
+===============================================*/
+/*▼(all.min.cssから移動する)=====================================================*/
+.headline--01 {
+  background: url("../../img/restaurant/restinfo_bk.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.headline--02 {
+  background: url("../../img/restaurant/restinfo_bk2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+/*配列調整のため（bgc配列切替）*/
+.items--restaurant .item:nth-child(odd){
+	background:#fbf1e9;
+	}
+.items--restaurant .item a{
+	color:#666;
+	}
+/*▲==============================================================================*/
+.information .m-b-md{
+	font-size:1.125rem;/*18*/
+	font-family:"times new roman","ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-weight:500;
+	color:#999;
+	margin-bottom:1.875rem;/*30*/
+	}
+/*カテゴリカラー(文字)*/
+.subhead__block1,
+.subhead__block3,
+.scarehead05__sptitle{
+	background-color:#E69F6C;
+	}
+.subhead__block2{
+	background-color:#fdf6f0;
+	}
+.subhead__title span{
+	display:inline;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+    }
+@media (max-width: 991px){
+	.information{
+		margin-bottom:1.25rem;/*20*/
+		}
+	.items--restaurant .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--restaurant .item:nth-child(1),
+	.items--restaurant .item:nth-child(4),
+	.items--restaurant .item:nth-child(5),
+	.items--restaurant .item:nth-child(8),
+	.items--restaurant .item:nth-child(9){
+	    background-color:#fbf1e9;
+		}
+    }
+@media (max-width: 768px){
+	.information dt{
+		background:#E0EDF3;
+		padding-top:0.3125rem;/*10*/
+		padding-bottom:0.3125rem;/*10*/
+		padding-left:0.625rem;/*10*/
+		}
+	.items--restaurant .item:nth-child(odd){
+	    background-color: #fbf1e9;
+		}
+	.items--restaurant .item:nth-child(4),
+	.items--restaurant .item:nth-child(8){
+	    background-color:#fff;
+		}
+    }
+@media (max-width: 640px){
+	.items--restaurant .item:nth-child(odd){
+	    background-color: #fff;
+		}
+	.items--restaurant .item:nth-child(1),
+	.items--restaurant .item:nth-child(4),
+	.items--restaurant .item:nth-child(5),
+	.items--restaurant .item:nth-child(8),
+	.items--restaurant .item:nth-child(9){
+	    background-color:#fbf1e9;
+		}
+    }
+@media (max-width: 543px){
+    }
+
+

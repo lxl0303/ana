@@ -1,0 +1,222 @@
+/* CSS Information ===============================
+File name:wedding/index.css
+Date: 2015.12
+Contents: *wedding
+================================================ */
+/*================
+wedding
+=================*/
+.pageonly-type .page-wrap{
+	width:100%;/*1050px*/
+	margin:0 auto 0;
+	text-align:left;
+	}
+.pageonly-type h1{
+	width:100%;
+	font-size:1.375rem;/*22*/
+	font-weight:500;
+	text-align:center;
+	margin-bottom:1.5rem;/*24px*/
+	}
+.pageonly-type h1 img{
+	width:100%;
+	max-width:13.6875rem;/*219px*/
+	}
+.pageonly-type p.lead{
+	width:100%;
+	text-align:center;
+	padding:0 0.625rem;
+	line-height:2rem;
+	margin-bottom:2.5rem;/*40*/
+	}
+.pageonly-type p.lead span{
+	display:block;
+	margin-bottom:0.625rem;/*10*/
+	}
+.pageonly-type p.info{
+	width:100%;
+	max-width:41.875rem;/*670px*/
+	margin:0 auto 3.125rem;/*50*/
+	font-size:0.875rem;/*14px*/
+	padding:0 0 0.625rem;/*10*/
+	border-bottom:solid 1px #e8e8e8;
+	}
+.pageonly-type .chapel{
+	width:100%;
+	display:table;
+	}
+.pageonly-type .chapel .pink{
+	background:#feedf0;
+	width:50%;
+	display:table-cell;
+	}
+.pageonly-type .chapel .orenge{
+	background:#FFF8F0;
+	width:50%;
+	display:table-cell;
+	}
+.chapel .disc{
+	width:100%;
+	padding:1.875rem 1.875rem 1.5625rem;/*30,30,25*/
+	font-size:0.875rem;/*14px*/
+	}
+.pageonly-type .chapel .view,
+.pageonly-type .chapel .disc .pac{
+	width:100%;
+	text-align:center;
+	}
+.pageonly-type .chapel .view img{
+	width:100%;
+	max-width:32.8125rem;/*525px*/
+	}
+.pageonly-type .chapel .disc .pac img{
+	width:100%;
+	max-width:29.0625rem;/*465px*/
+	}
+.pageonly-type .chapel .disc h2{
+	width:100%;
+	text-align:center;
+	}
+.pageonly-type .chapel .pink h2 img{
+	width:100%;
+	max-width:14.375rem;/*230px*/
+	}
+.pageonly-type .chapel .orenge h2 img{
+	width:100%;
+	max-width:14.375rem;/*230px*/
+	}
+.pageonly-type .chapel .disc span{
+	display:block;
+	width:100%;
+	text-align:center;
+	background:#fff;
+	}
+.pageonly-type .chapel .disc span a{
+	width:100%;
+	padding:0.625rem;/*10px*/
+	font-weight:bold;
+	color:#666;
+	display:block;
+	}
+.pageonly-type .chapel .disc span a:hover{
+	text-decoration:none;
+	}
+.pageonly-type dl{
+	font-size:0.875rem;/*14px*/
+	text-align:center;
+	margin-bottom:3.75rem;/*60*/
+	}
+.pageonly-type dl a,
+.pageonly-type dl a:link,
+.pageonly-type dl a:hover{
+	color:#B1931A;
+	text-decoration:underline;
+	}
+.pageonly-type dl a:hover{
+	text-decoration:none;
+	}
+
+/*----------------------
+MAIN VISUAL TEXT BK-COLOR
+-----------------------*/
+.scarehead05__sptitle{
+	background-color:#EFA9B8;
+	}
+
+/*----------------------
+lang:CN contact-Us btn
+-----------------------*/
+.pageonly-type ul.fc-contact-btn{
+	width:100%;/*1050*/
+	list-style-type:none;
+	border:none;
+	margin:0 auto 2.5rem;/*40*/
+	padding-left:0;
+	}
+.pageonly-type ul.fc-contact-btn li{
+	width:33.33333333%;/*350*/
+	text-align:center;
+	float:left;
+	height:60px;
+	line-height:1.3em;
+	padding:0 0.625rem;/*10*/
+	}
+.pageonly-type ul.fc-contact-btn li a{
+	width:100%;
+	margin:0 auto 0;
+	font-size:0.9375rem;/*15*/
+	font-weight:500;
+	color:#fff;
+	display:block;
+	background:#efa9b8;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	text-decoration:none;
+	}
+.pageonly-type ul.fc-contact-btn li a span img{
+	width:17px;
+	margin-top:-3px;
+	}
+.pageonly-type ul.fc-contact-btn li a span span{
+	padding-left:10px;
+	}
+.pageonly-type p.fc-contact-cap{
+	font-size:0.9375rem;/*15*/
+	font-weight:600;
+	text-align:center;
+	margin-bottom:1.25rem;
+	}
+
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.pageonly-type p.lead{
+		text-align:left;
+		}
+	.pageonly-type p.lead span{
+		display:inline;
+		}
+	.pageonly-type p.lead span:first-child{
+		margin-bottom:0;
+		}
+    }
+@media (max-width: 1060px){
+	.pageonly-type .intab table.normal{
+		font-size:0.75rem;/*12*/
+		}
+	}
+@media (max-width: 991px){
+	.pageonly-type .chapel .disc{
+		padding:1.25rem;/*20*/
+		}
+	.pageonly-type h1{
+		margin-bottom:1.5625rem;/*25px*/
+		}
+    }
+@media (max-width: 550px){
+	.pageonly-type ul.fc-contact-btn{
+		margin-bottom:1.25rem;
+		}
+	}
+@media (max-width: 543px){
+	.pageonly-type .chapel .pink,
+	.pageonly-type .chapel .orenge{
+		width:100%;
+		display:block;
+		}
+	}
+@media (max-width: 480px){
+	.pageonly-type ul.fc-contact-btn li{
+		padding:0 0.3125rem;/*5*/
+		}
+	.pageonly-type ul.fc-contact-btn li a{
+		font-size:0.8125rem;/*13*/
+		}
+	.pageonly-type ul.fc-contact-btn li a span span{
+		padding-left:5px;
+		}
+	}
+
+

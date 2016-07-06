@@ -1,0 +1,121 @@
+/* CSS Information ===============================
+File name:sitemap/index.css
+Date: 2015.12
+Contents: *sitemap
+================================================ */
+/*================
+sitemap
+=================*/
+.page-navi{
+	width:100%;/*1050px*/
+	border-bottom:solid 3px #f5f5f5;
+	padding-bottom:2.8125rem;/*45px*/
+	padding-left:3.125rem;/*50px*/
+	list-style-type:none;
+	}
+.page-navi li{
+	margin-bottom:0.625rem;/*10px*/
+	}
+.page-navi li a{
+	font-weight:bold;
+	color:#645f5c;
+	font-size:0.9rem;/*14.4*/
+	}
+.page-navi a:hover{
+	text-decoration:underline;
+	}
+.page-navi li a.ico{
+	background:url(../../img/sitemap/navi_ico.jpg) no-repeat left center;
+	padding-left:20px;
+	padding-right:0;
+	}
+.color{
+	color:#0ba0c3;
+	}
+.page-wrap{
+	width:100%;
+	margin:0 auto 0;
+	text-align:left;
+	padding:0 0 0 3.125rem;/*10px*/
+	}
+.page-wrap .box{
+	border-bottom:solid 1px #C8EAF2;
+	}
+.page-wrap .box a{
+	color:#645f5c;
+	}
+h1{
+	font-size:1.625rem;/*26px*/
+	font-weight:normal;
+	}
+h2{
+	font-size:1.125rem;/*18px*/
+	font-weight:normal;
+	background-image:url(../../img/sitemap/fade_ico.jpg);
+	background-repeat:no-repeat;
+	background-position:0 center;
+	padding-left:1.25rem;/*20px*/
+	}
+h3{
+	font-size:0.875rem;/*14px*/
+	padding-bottom:0.3125rem;/*5px*/
+	border-bottom:solid 1px #E5E5E5;
+	width:100%;
+	}
+.page-wrap .box ul{
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.875rem;/*14px*/
+	}
+p{
+	font-size:0.875rem;/*14px*/
+	line-height:1.7rem;
+	}
+p span{
+	display:inline-block;
+	}
+.ico{
+	background:url(../../img/sitemap/icon_pdf.png) no-repeat right center;
+	padding-right:25px;
+	background-size:20px auto;
+	-moz-background-size:20px auto;
+	-webkit-background-size:20px auto;
+	-ms-background-size:20px auto;
+	-o-background-size:20px auto;
+	}
+/*================
+Responsive
+=================*/
+@media (max-width: 1199px){
+	.page-navi{
+		padding-left:0.625rem;/*10px*/
+		}
+	.page-wrap{
+		padding:0 0.625rem;/*10px*/
+		}
+    }
+@media (max-width: 991px){
+	h2{
+		background-image:none;
+		background:#0ba0c3;
+		padding-left:0.625rem;/*10px*/
+		padding-top:0.3125rem;/*5px*/
+		padding-bottom:0.3125rem;/*5px*/
+		color:#fff;
+		}
+	.page-wrap .box h2 a{color:#fff;}
+	.page-wrap .box ul li{
+		line-height:2rem;
+		}
+    }
+@media (max-width: 768px){
+	.page-navi{
+		padding-bottom:1.5625rem;/*25px*/
+		}
+    }
+@media (max-width: 543px){
+		.page-navi a{
+		font-size: 13px;
+	}
+    }
+
